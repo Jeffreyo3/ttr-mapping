@@ -1,0 +1,17 @@
+[
+  {
+    "city": "El Paso",
+    "distance": 6,
+    "colors": ["green"]
+  },
+  {
+    "city": "Dallas",
+    "distance": 1,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "New Orleans",
+    "distance": 2,
+    "colors": ["grey"]
+  }
+]

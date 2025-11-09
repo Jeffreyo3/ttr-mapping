@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Nashville",
+    "distance": 4,
+    "colors": ["yellow"]
+  },
+  {
+    "city": "St. Louis",
+    "distance": 5,
+    "colors": ["green"]
+  },
+  {
+    "city": "Chicago",
+    "distance": 3,
+    "colors": ["black", "orange"]
+  },
+  {
+    "city": "Toronto",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "New York",
+    "distance": 2,
+    "colors": ["green", "white"]
+  },
+  {
+    "city": "Washington D.C.",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Raleigh",
+    "distance": 2,
+    "colors": ["grey"]
+  }
+]

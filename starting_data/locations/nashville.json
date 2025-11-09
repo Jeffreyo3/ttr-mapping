@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Little Rock",
+    "distance": 3,
+    "colors": ["white"]
+  },
+  {
+    "city": "St. Louis",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Pittsburgh",
+    "distance": 4,
+    "colors": ["yellow"]
+  },
+  {
+    "city": "Raleigh",
+    "distance": 3,
+    "colors": ["black"]
+  },
+  {
+    "city": "Atlanta",
+    "distance": 1,
+    "colors": ["grey"]
+  }
+]

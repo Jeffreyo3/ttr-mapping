@@ -1,0 +1,22 @@
+[
+  {
+    "city": "San Francisco",
+    "distance": 3,
+    "colors": ["pink", "yellow"]
+  },
+  {
+    "city": "Las Vegas",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Phoenix",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "El Paso",
+    "distance": 6,
+    "colors": ["black"]
+  }
+]

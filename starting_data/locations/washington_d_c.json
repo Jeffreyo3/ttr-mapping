@@ -1,0 +1,17 @@
+[
+  {
+    "city": "Raleigh",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "Pittsburgh",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "New York",
+    "distance": 2,
+    "colors": ["black", "orange"]
+  }
+]

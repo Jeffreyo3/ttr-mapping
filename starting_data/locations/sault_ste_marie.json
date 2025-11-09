@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Duluth",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Winnipeg",
+    "distance": 6,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Montreal",
+    "distance": 5,
+    "colors": ["black"]
+  },
+  {
+    "city": "Toronto",
+    "distance": 2,
+    "colors": ["grey"]
+  }
+]

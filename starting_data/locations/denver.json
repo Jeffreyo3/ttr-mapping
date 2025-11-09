@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Phoenix",
+    "distance": 5,
+    "colors": ["white"]
+  },
+  {
+    "city": "Salt Lake City",
+    "distance": 3,
+    "colors": ["red", "yellow"]
+  },
+  {
+    "city": "Helena",
+    "distance": 4,
+    "colors": ["green"]
+  },
+  {
+    "city": "Omaha",
+    "distance": 4,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Kansas City",
+    "distance": 4,
+    "colors": ["black", "orange"]
+  },
+  {
+    "city": "Oklahoma City",
+    "distance": 4,
+    "colors": ["red"]
+  },
+  {
+    "city": "Santa Fe",
+    "distance": 2,
+    "colors": ["grey"]
+  }
+]

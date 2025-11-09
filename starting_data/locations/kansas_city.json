@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Oklahoma City",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "Denver",
+    "distance": 4,
+    "colors": ["black", "orange"]
+  },
+  {
+    "city": "Omaha",
+    "distance": 1,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "St. Louis",
+    "distance": 2,
+    "colors": ["blue", "pink"]
+  }
+]

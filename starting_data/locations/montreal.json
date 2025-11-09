@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Toronto",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "distance": 5,
+    "colors": ["black"]
+  },
+  {
+    "city": "Boston",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "New York",
+    "distance": 3,
+    "colors": ["blue"]
+  }
+]

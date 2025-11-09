@@ -1,0 +1,22 @@
+[
+  {
+    "city": "Helena",
+    "distance": 4,
+    "colors": ["blue"]
+  },
+  {
+    "city": "Calgary",
+    "distance": 6,
+    "colors": ["white"]
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "distance": 6,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Duluth",
+    "distance": 4,
+    "colors": ["black"]
+  }
+]

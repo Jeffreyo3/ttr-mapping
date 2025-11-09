@@ -1,0 +1,12 @@
+[
+  {
+    "city": "Montreal",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "New York",
+    "distance": 2,
+    "colors": ["red", "yellow"]
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Chicago",
+    "distance": 4,
+    "colors": ["white"]
+  },
+  {
+    "city": "Duluth",
+    "distance": 6,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Montreal",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Pittsburgh",
+    "distance": 2,
+    "colors": ["grey"]
+  }
+]

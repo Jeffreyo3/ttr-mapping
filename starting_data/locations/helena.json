@@ -1,0 +1,37 @@
+[
+  {
+    "city": "Salt Lake City",
+    "distance": 3,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Seattle",
+    "distance": 6,
+    "colors": ["yellow"]
+  },
+  {
+    "city": "Calgary",
+    "distance": 4,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Winnipeg",
+    "distance": 4,
+    "colors": ["blue"]
+  },
+  {
+    "city": "Duluth",
+    "distance": 6,
+    "colors": ["orange"]
+  },
+  {
+    "city": "Omaha",
+    "distance": 5,
+    "colors": ["red"]
+  },
+  {
+    "city": "Denver",
+    "distance": 4,
+    "colors": ["green"]
+  }
+]

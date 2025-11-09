@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Denver",
+    "distance": 4,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Helena",
+    "distance": 5,
+    "colors": ["red"]
+  },
+  {
+    "city": "Duluth",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "Chicago",
+    "distance": 4,
+    "colors": ["blue"]
+  },
+  {
+    "city": "Kansas City",
+    "distance": 1,
+    "colors": ["blue", "pink"]
+  }
+]

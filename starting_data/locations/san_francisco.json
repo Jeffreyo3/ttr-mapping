@@ -1,0 +1,17 @@
+[
+  {
+    "city": "Portland",
+    "distance": 5,
+    "colors": ["green", "pink"]
+  },
+  {
+    "city": "Salt Lake City",
+    "distance": 5,
+    "colors": ["orange", "white"]
+  },
+  {
+    "city": "Los Angeles",
+    "distance": 3,
+    "colors": ["pink", "yellow"]
+  }
+]

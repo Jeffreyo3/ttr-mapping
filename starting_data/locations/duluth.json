@@ -1,0 +1,32 @@
+[
+  {
+    "city": "Helena",
+    "distance": 6,
+    "colors": ["orange"]
+  },
+  {
+    "city": "Winnipeg",
+    "distance": 4,
+    "colors": ["black"]
+  },
+  {
+    "city": "Sault Ste. Marie",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Toronto",
+    "distance": 6,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Chicago",
+    "distance": 3,
+    "colors": ["red"]
+  },
+  {
+    "city": "Omaha",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "city": "Los Angeles",
+    "distance": 6,
+    "colors": ["black"]
+  },
+  {
+    "city": "Phoenix",
+    "distance": 3,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Santa Fe",
+    "distance": 2,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Oklahoma City",
+    "distance": 5,
+    "colors": ["yellow"]
+  },
+  {
+    "city": "Dallas",
+    "distance": 4,
+    "colors": ["red"]
+  },
+  {
+    "city": "Houston",
+    "distance": 6,
+    "colors": ["green"]
+  }
+]

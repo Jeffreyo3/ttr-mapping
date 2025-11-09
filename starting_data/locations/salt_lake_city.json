@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Las Vegas",
+    "distance": 3,
+    "colors": ["orange"]
+  },
+  {
+    "city": "San Francisco",
+    "distance": 5,
+    "colors": ["orange", "white"]
+  },
+  {
+    "city": "Portland",
+    "distance": 6,
+    "colors": ["blue"]
+  },
+  {
+    "city": "Helena",
+    "distance": 3,
+    "colors": ["pink"]
+  },
+  {
+    "city": "Denver",
+    "distance": 3,
+    "colors": ["red", "yellow"]
+  }
+]

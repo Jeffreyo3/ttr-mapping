@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Miami",
+    "distance": 5,
+    "colors": ["blue"]
+  },
+  {
+    "city": "New Orleans",
+    "distance": 4,
+    "colors": ["orange", "yellow"]
+  },
+  {
+    "city": "Nashville",
+    "distance": 1,
+    "colors": ["grey"]
+  },
+  {
+    "city": "Raleigh",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  },
+  {
+    "city": "Charleston",
+    "distance": 2,
+    "colors": ["grey", "grey"]
+  }
+]
