@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Dict
 
 from src.data_types.cities import City, to_city
 
@@ -22,11 +22,5 @@ class Route:
         return cls(a, b, v)
 
     @classmethod
-    def from_json(cls, data: dict[str, Any]) -> Route:
+    def from_json(cls, data: Dict[str, Any]) -> Route:
         return cls(data["a"], data["b"], data["value"])
-
-    # For checking duplicate connections
-    def is_same_connection(self, other: Route) -> bool:
-        return (self.a == other.a and self.b == other.b) or (
-            self.a == other.b and self.b == other.a
-        )

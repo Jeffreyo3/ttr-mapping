@@ -1,8 +1,10 @@
-from data_types.route import Route
-from starting_data.load_route_json import load_updated_route_json
+from typing import List
+
+from src.data_types.route import Route
+from src.starting_data.load_route_json import load_updated_route_json
 
 
-def build_lines():
+def load_lines() -> List[Route]:
     json_routes = load_updated_route_json()
     routes = [Route.from_json(json_route) for json_route in json_routes]
 

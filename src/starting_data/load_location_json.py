@@ -1,11 +1,12 @@
 import json
 from pathlib import Path
+from typing import Dict
 
 from src.data_types.cities import City
 
 BASE_PATH = Path(__file__).parent
 
-file_city_map: dict[str, City] = {
+file_city_map: Dict[str, City] = {
     "atlanta.json": City.ATLANTA,
     "boston.json": City.BOSTON,
     "calgary.json": City.CALGARY,
@@ -45,15 +46,15 @@ file_city_map: dict[str, City] = {
 }
 
 
-def load_location_json(file_name: str) -> dict:
+def load_location_json(file_name: str) -> Dict:
     file_path = BASE_PATH / "locations" / file_name
     with open(file_path, "r") as f:
         json_location = json.load(f)
     return json_location
 
 
-def load_all_locations_json() -> list[City, dict]:
-    city_json_map: dict[City, dict] = {}
+def load_all_locations_json() -> list[City, Dict]:
+    city_json_map: Dict[City, Dict] = {}
 
     for file_name in file_city_map.keys():
         json_location = load_location_json(file_name)

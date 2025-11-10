@@ -1,14 +1,14 @@
+from typing import Dict
+
+from src.data_types.cities import City
 from src.shortest_line import shortest_line
 
-# create a dictionary where the key is a frozenset of two cities and the value is the distance
 
-# iterate over all cities and call shortest_line with every other city
-#   - to optimize, skip if the frozenset of the two cities is already in the dictionary
-#   - use a flag to allow recalculating from the opposite direction and choose the shorter distance
-#   - store the shortest distance in the dictionary
-
-
-def all_possible_lines(city_map, double_count=False):
+# double_count: If True, counts both (A, B) and (B, A) as separate entries and will use the lowest distance for each calculation.
+# This should be obsolete if Dijkstra's algorithm is implemented correctly, but is left here for validation.
+def all_possible_lines(
+    city_map, double_count=False
+) -> Dict[frozenset[City, City], int]:
     distances = {}
     cities = list(city_map.keys())
 
@@ -21,6 +21,11 @@ def all_possible_lines(city_map, double_count=False):
                 continue
 
             distance, _ = shortest_line(start, end, city_map)
+
+            if double_count and frozenset({start, end}) in distances:
+                distance = min(distances[frozenset({start, end})], distance)
+
             distances[frozenset({start, end})] = distance
 
+    print(f"\nTotal unique city pairs: {len(distances)}")
     return distances
