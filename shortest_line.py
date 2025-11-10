@@ -3,7 +3,7 @@ from itertools import count
 from typing import Dict
 
 from location import Location
-from starting_data.cities import City
+from cities import City
 
 
 def shortest_line(start: City, end: City, city_map: Dict[City, Location]):

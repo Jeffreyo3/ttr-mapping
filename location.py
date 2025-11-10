@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 from typing import List, Tuple
 
-from starting_data.cities import City
+from cities import City
 
 
 @dataclass

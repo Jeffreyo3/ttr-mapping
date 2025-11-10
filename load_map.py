@@ -1,5 +1,5 @@
 from location import Location
-from starting_data.cities import City, to_city
+from cities import City, to_city
 from starting_data.load_location_json import load_all_locations_json
 
 
