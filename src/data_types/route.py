@@ -24,3 +24,6 @@ class Route:
     @classmethod
     def from_json(cls, data: Dict[str, Any]) -> Route:
         return cls(data["a"], data["b"], data["value"])
+
+    def to_json(self) -> Dict[str, Any]:
+        return {"a": self.a.value, "b": self.b.value, "value": self.value}
