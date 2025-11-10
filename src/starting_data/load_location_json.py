@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from cities import City
+from src.data_types.cities import City
 
 BASE_PATH = Path(__file__).parent
 

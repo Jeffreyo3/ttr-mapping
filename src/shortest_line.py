@@ -2,8 +2,8 @@ import heapq
 from itertools import count
 from typing import Dict
 
-from location import Location
-from cities import City
+from src.data_types.cities import City
+from src.data_types.location import Location
 
 
 def shortest_line(start: City, end: City, city_map: Dict[City, Location]):

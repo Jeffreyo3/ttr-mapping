@@ -1,4 +1,4 @@
-from route import Route
+from data_types.route import Route
 from starting_data.load_route_json import load_updated_route_json
 
 

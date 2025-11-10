@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Any
 
-from cities import City, to_city
+from src.data_types.cities import City, to_city
 
 
 @dataclass(frozen=True, slots=True)

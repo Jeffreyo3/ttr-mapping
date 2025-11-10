@@ -1,6 +1,6 @@
-from location import Location
-from cities import City, to_city
-from starting_data.load_location_json import load_all_locations_json
+from src.data_types.cities import City, to_city
+from src.data_types.location import Location
+from src.starting_data.load_location_json import load_all_locations_json
 
 
 def build_map():

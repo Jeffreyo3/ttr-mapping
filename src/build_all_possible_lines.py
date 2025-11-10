@@ -1,4 +1,4 @@
-from shortest_line import shortest_line
+from src.shortest_line import shortest_line
 
 # create a dictionary where the key is a frozenset of two cities and the value is the distance
 
