@@ -1,5 +1,7 @@
 __pycache__/
 
+.DS_Store
+
 # User must provide their own fonts
 /src/starting_data/fonts/*
 

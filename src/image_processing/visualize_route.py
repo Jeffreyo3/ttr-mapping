@@ -24,6 +24,7 @@ IMAGE_HEIGHT = 735
 DOT_SIZE = 20
 LINE_WIDTH = 10
 FONT_SIZE = 64
+ANTIALIASING_SCALE = 3
 
 
 def visualize_route(
@@ -84,19 +85,51 @@ def visualize_route(
     x1, y1 = coord_a["x"], coord_a["y"]
     x2, y2 = coord_b["x"], coord_b["y"]
 
-    # Draw connecting line
-    draw.line([(x1, y1), (x2, y2)], fill=DARK_GREEN, width=LINE_WIDTH)
+    # Draw at higher resolution for antialiasing, then scale down
+    scaled_width = IMAGE_WIDTH * ANTIALIASING_SCALE
+    scaled_height = IMAGE_HEIGHT * ANTIALIASING_SCALE
+    scaled_img = img.resize((scaled_width, scaled_height), Image.Resampling.LANCZOS)
+    scaled_draw = ImageDraw.Draw(scaled_img)
 
-    # Draw red dots
-    dot_radius = DOT_SIZE // 2
-    draw.ellipse(
-        [(x1 - dot_radius, y1 - dot_radius), (x1 + dot_radius, y1 + dot_radius)],
+    scaled_draw.line(
+        [
+            (x1 * ANTIALIASING_SCALE, y1 * ANTIALIASING_SCALE),
+            (x2 * ANTIALIASING_SCALE, y2 * ANTIALIASING_SCALE),
+        ],
+        fill=DARK_GREEN,
+        width=LINE_WIDTH * ANTIALIASING_SCALE,
+    )
+
+    scaled_dot_radius = DOT_SIZE * ANTIALIASING_SCALE / 2.0
+    scaled_draw.ellipse(
+        [
+            (
+                x1 * ANTIALIASING_SCALE - scaled_dot_radius,
+                y1 * ANTIALIASING_SCALE - scaled_dot_radius,
+            ),
+            (
+                x1 * ANTIALIASING_SCALE + scaled_dot_radius,
+                y1 * ANTIALIASING_SCALE + scaled_dot_radius,
+            ),
+        ],
         fill=RED,
     )
-    draw.ellipse(
-        [(x2 - dot_radius, y2 - dot_radius), (x2 + dot_radius, y2 + dot_radius)],
+    scaled_draw.ellipse(
+        [
+            (
+                x2 * ANTIALIASING_SCALE - scaled_dot_radius,
+                y2 * ANTIALIASING_SCALE - scaled_dot_radius,
+            ),
+            (
+                x2 * ANTIALIASING_SCALE + scaled_dot_radius,
+                y2 * ANTIALIASING_SCALE + scaled_dot_radius,
+            ),
+        ],
         fill=RED,
     )
+
+    # Scale back down with antialiasing
+    img = scaled_img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), Image.Resampling.LANCZOS)
 
     # Save the image
     img.save(output_image_path, "JPEG", quality=100)
