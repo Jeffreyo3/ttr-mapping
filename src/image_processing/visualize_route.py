@@ -19,8 +19,6 @@ BLACK = (0, 0, 0)
 
 # Dimensions
 HEADER_HEIGHT = 130
-IMAGE_WIDTH = 1029
-IMAGE_HEIGHT = 735
 DOT_SIZE = 20
 LINE_WIDTH = 10
 FONT_SIZE = 64
@@ -58,28 +56,35 @@ def visualize_route(
             "max_lon": 180.0,  # International Date Line (east)
         }
 
-    def lat_lon_to_pixel(lat: float, lon: float) -> tuple[float, float]:
+    def lat_lon_to_pixel(
+        lat: float, lon: float, image_width: int, image_height: int
+    ) -> tuple[float, float]:
         """Convert latitude/longitude to pixel coordinates on the image."""
         # Calculate pixel position based on bounds
         pixel_x = (
             (lon - bounds["min_lon"]) / (bounds["max_lon"] - bounds["min_lon"])
-        ) * IMAGE_WIDTH
+        ) * image_width
         pixel_y = (
             (bounds["max_lat"] - lat) / (bounds["max_lat"] - bounds["min_lat"])
-        ) * (IMAGE_HEIGHT - HEADER_HEIGHT) + HEADER_HEIGHT
+        ) * (image_height - HEADER_HEIGHT) + HEADER_HEIGHT
         return (pixel_x, pixel_y)
 
-    def _visualize_single_route(route: Route, output_image_path: str) -> None:
+    def _visualize_single_route(
+        route: Route,
+        output_image_path: str,
+        base_img: Image.Image,
+        image_width: int,
+        image_height: int,
+    ) -> None:
         """Helper function to visualize a single route."""
-        # Load the map image
-        img = Image.open(map_path).convert("RGB")
-        img = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), Image.Resampling.LANCZOS)
+        # Use the pre-loaded base image (convert to RGB for each route to avoid modifying shared state)
+        img = base_img.convert("RGB")
 
         draw = ImageDraw.Draw(img)
 
         # Draw white header box with transparency
         header_img = Image.new(
-            "RGBA", (IMAGE_WIDTH, HEADER_HEIGHT), (255, 255, 255, 102)
+            "RGBA", (image_width, HEADER_HEIGHT), (255, 255, 255, 102)
         )
         img.paste(header_img, (0, 0), header_img)
 
@@ -95,7 +100,7 @@ def visualize_route(
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
 
-        text_x = (IMAGE_WIDTH - text_width) // 2
+        text_x = (image_width - text_width) // 2
         text_y = (HEADER_HEIGHT - text_height) // 2 - 10
 
         draw.text((text_x, text_y), header_text, fill=BLACK, font=font)
@@ -113,12 +118,16 @@ def visualize_route(
             )
 
         # Convert lat/lon to pixel coordinates
-        x1, y1 = lat_lon_to_pixel(coord_a["lat"], coord_a["lon"])
-        x2, y2 = lat_lon_to_pixel(coord_b["lat"], coord_b["lon"])
+        x1, y1 = lat_lon_to_pixel(
+            coord_a["lat"], coord_a["lon"], image_width, image_height
+        )
+        x2, y2 = lat_lon_to_pixel(
+            coord_b["lat"], coord_b["lon"], image_width, image_height
+        )
 
         # Draw at higher resolution for antialiasing, then scale down
-        scaled_width = IMAGE_WIDTH * ANTIALIASING_SCALE
-        scaled_height = IMAGE_HEIGHT * ANTIALIASING_SCALE
+        scaled_width = image_width * ANTIALIASING_SCALE
+        scaled_height = image_height * ANTIALIASING_SCALE
         scaled_img = img.resize((scaled_width, scaled_height), Image.Resampling.LANCZOS)
         scaled_draw = ImageDraw.Draw(scaled_img)
 
@@ -160,7 +169,7 @@ def visualize_route(
         )
 
         # Scale back down with antialiasing
-        img = scaled_img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), Image.Resampling.LANCZOS)
+        img = scaled_img.resize((image_width, image_height), Image.Resampling.LANCZOS)
 
         # Draw score circle in bottom right or bottom left
         draw = ImageDraw.Draw(img)
@@ -200,23 +209,23 @@ def visualize_route(
 
         if one_left_one_right:
             # One on left 1/4, one on right 1/4: center the score
-            circle_x = IMAGE_WIDTH // 2
+            circle_x = image_width // 2
         elif one_left_one_not_right_quarter:
             # One in left half, other not in right 1/4: place score on right
-            circle_x = IMAGE_WIDTH - circle_radius - 20
+            circle_x = image_width - circle_radius - 20
         elif coord_a["lon"] < left_third and coord_b["lon"] < left_third:
             # Both cities are in left 1/3, place score on right
-            circle_x = IMAGE_WIDTH - circle_radius - 20
+            circle_x = image_width - circle_radius - 20
         else:
             # Default: place score on left
             circle_x = circle_radius + 20
 
-        circle_y = IMAGE_HEIGHT - circle_radius - 20
+        circle_y = image_height - circle_radius - 20
 
         # Draw white circle with transparency
         circle_img = Image.new(
             "RGBA",
-            (IMAGE_WIDTH, IMAGE_HEIGHT),
+            (image_width, image_height),
             (0, 0, 0, 0),
         )
         circle_draw = ImageDraw.Draw(circle_img)
@@ -248,11 +257,18 @@ def visualize_route(
     # Create output directory if it doesn't exist
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    # Load the map image once
+    base_img = Image.open(map_path)
+    IMAGE_WIDTH, IMAGE_HEIGHT = base_img.size
+    print(f"Map dimensions loaded: {IMAGE_WIDTH}x{IMAGE_HEIGHT}")
+
     # Generate individual images and collect their paths
     image_paths = []
     for route in routes:
         image_path = OUTPUT_DIR / f"{route.a.name}_{route.b.name}.jpeg"
-        _visualize_single_route(route, str(image_path))
+        _visualize_single_route(
+            route, str(image_path), base_img, IMAGE_WIDTH, IMAGE_HEIGHT
+        )
         image_paths.append(image_path)
 
     # Create zip file containing all images
