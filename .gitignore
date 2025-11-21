@@ -8,3 +8,4 @@ __pycache__/
 # Route visualizations are generated on demand at runtime
 /src/output_data/visualized_routes/*
 !/src/output_data/visualized_routes/.gitkeep
+!/src/output_data/visualized_routes/example_new_route.jpeg
