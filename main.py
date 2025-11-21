@@ -29,5 +29,5 @@ us_bounds = {
     "max_lon": -66.5,
 }
 
-for route in new_lines:
-    visualize_route(route, map, map_path, bounds=us_bounds)
+zip_file_path = visualize_route(new_lines, map, map_path, bounds=us_bounds)
+print(f"Route visualizations saved to: {zip_file_path}")
