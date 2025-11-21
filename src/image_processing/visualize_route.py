@@ -109,6 +109,62 @@ def _load_font(font_path: str, size: int) -> ImageFont.FreeTypeFont:
         return ImageFont.load_default(size=int(size * 0.6))
 
 
+def _draw_curved_line(
+    draw: ImageDraw.ImageDraw,
+    x1: float,
+    y1: float,
+    x2: float,
+    y2: float,
+    color: tuple[int, int, int],
+    width: int,
+    curve_amount: float = 0.1,
+) -> None:
+    """
+    Draw a curved line between two points using quadratic Bezier curve.
+
+    Args:
+        draw: ImageDraw object
+        x1, y1: Start point coordinates
+        x2, y2: End point coordinates
+        color: Line color (RGB tuple)
+        width: Line width
+        curve_amount: Curve intensity (0.1 = 10% of line distance)
+    """
+    # Calculate midpoint
+    mid_x = (x1 + x2) / 2
+    mid_y = (y1 + y2) / 2
+
+    # Vector from point 1 to point 2
+    dx = x2 - x1
+    dy = y2 - y1
+
+    # Perpendicular vector (rotated 90 degrees)
+    perp_x = -dy
+    perp_y = dx
+
+    # Normalize and scale perpendicular vector for curve control point
+    length = (perp_x**2 + perp_y**2) ** 0.5
+    if length > 0:
+        perp_x = (perp_x / length) * length * curve_amount
+        perp_y = (perp_y / length) * length * curve_amount
+
+    # Control point for the curve (offset from midpoint)
+    ctrl_x = mid_x + perp_x
+    ctrl_y = mid_y + perp_y
+
+    # Draw curved line as a series of line segments
+    num_segments = 20
+    points = []
+    for i in range(num_segments + 1):
+        t = i / num_segments
+        # Quadratic Bezier formula: B(t) = (1-t)²P0 + 2(1-t)tC + t²P1
+        px = (1 - t) ** 2 * x1 + 2 * (1 - t) * t * ctrl_x + t**2 * x2
+        py = (1 - t) ** 2 * y1 + 2 * (1 - t) * t * ctrl_y + t**2 * y2
+        points.append((px, py))
+
+    draw.line(points, fill=color, width=width)
+
+
 def _draw_header_text(
     draw: ImageDraw.ImageDraw,
     header_text: str,
@@ -215,13 +271,15 @@ def _visualize_single_route(
     scaled_img = img.resize((scaled_width, scaled_height), Image.Resampling.LANCZOS)
     scaled_draw = ImageDraw.Draw(scaled_img)
 
-    scaled_draw.line(
-        [
-            (x1 * ANTIALIASING_SCALE, y1 * ANTIALIASING_SCALE),
-            (x2 * ANTIALIASING_SCALE, y2 * ANTIALIASING_SCALE),
-        ],
-        fill=DARK_GREEN,
-        width=LINE_WIDTH * ANTIALIASING_SCALE,
+    # Draw curved line
+    _draw_curved_line(
+        scaled_draw,
+        x1 * ANTIALIASING_SCALE,
+        y1 * ANTIALIASING_SCALE,
+        x2 * ANTIALIASING_SCALE,
+        y2 * ANTIALIASING_SCALE,
+        DARK_GREEN,
+        LINE_WIDTH * ANTIALIASING_SCALE,
     )
 
     scaled_dot_radius = DOT_SIZE * ANTIALIASING_SCALE / 2.0
