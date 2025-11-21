@@ -1,0 +1,2 @@
+# This file tracks the visualized_routes directory. While its contents (generated *.jpeg files) are ignored,
+# the directory must exist for the visualization output functions to write images without errors.

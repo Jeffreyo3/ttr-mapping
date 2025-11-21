@@ -1,1 +1,8 @@
 __pycache__/
+
+# User must provide their own fonts
+/src/starting_data/fonts/*
+
+# Route visualizations are generated on demand at runtime
+/src/output_data/visualized_routes/*
+!/src/output_data/visualized_routes/.gitkeep
