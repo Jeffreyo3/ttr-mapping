@@ -1,17 +1,31 @@
-[
-  {
-    "city": "Seattle",
-    "distance": 1,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 45.5152,
+    "lon": -122.6784
   },
-  {
-    "city": "Salt Lake City",
-    "distance": 6,
-    "colors": ["blue"]
-  },
-  {
-    "city": "San Francisco",
-    "distance": 5,
-    "colors": ["green", "pink"]
-  }
-]
+  "connections": [
+    {
+      "city": "Seattle",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "distance": 6,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "San Francisco",
+      "distance": 5,
+      "colors": [
+        "green",
+        "pink"
+      ]
+    }
+  ]
+}

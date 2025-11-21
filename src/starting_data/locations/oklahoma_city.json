@@ -1,32 +1,52 @@
-[
-  {
-    "city": "El Paso",
-    "distance": 5,
-    "colors": ["yellow"]
+{
+  "coordinates": {
+    "lat": 35.4676,
+    "lon": -97.5164
   },
-  {
-    "city": "Santa Fe",
-    "distance": 3,
-    "colors": ["blue"]
-  },
-  {
-    "city": "Denver",
-    "distance": 4,
-    "colors": ["red"]
-  },
-  {
-    "city": "Kansas City",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "Little Rock",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Dallas",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "El Paso",
+      "distance": 5,
+      "colors": [
+        "yellow"
+      ]
+    },
+    {
+      "city": "Santa Fe",
+      "distance": 3,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "Denver",
+      "distance": 4,
+      "colors": [
+        "red"
+      ]
+    },
+    {
+      "city": "Kansas City",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Little Rock",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Dallas",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    }
+  ]
+}

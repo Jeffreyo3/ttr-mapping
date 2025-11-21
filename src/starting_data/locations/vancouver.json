@@ -1,12 +1,23 @@
-[
-  {
-    "city": "Calgary",
-    "distance": 3,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 49.2827,
+    "lon": -123.1207
   },
-  {
-    "city": "Seattle",
-    "distance": 1,
-    "colors": ["grey", "grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "Calgary",
+      "distance": 3,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Seattle",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    }
+  ]
+}

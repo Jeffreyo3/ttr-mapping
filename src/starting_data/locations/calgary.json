@@ -1,22 +1,36 @@
-[
-  {
-    "city": "Vancouver",
-    "distance": 3,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 51.0504,
+    "lon": -114.0853
   },
-  {
-    "city": "Seattle",
-    "distance": 4,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Helena",
-    "distance": 4,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Winnipeg",
-    "distance": 6,
-    "colors": ["white"]
-  }
-]
+  "connections": [
+    {
+      "city": "Vancouver",
+      "distance": 3,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Seattle",
+      "distance": 4,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Helena",
+      "distance": 4,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Winnipeg",
+      "distance": 6,
+      "colors": [
+        "white"
+      ]
+    }
+  ]
+}

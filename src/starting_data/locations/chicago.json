@@ -1,27 +1,45 @@
-[
-  {
-    "city": "St. Louis",
-    "distance": 2,
-    "colors": ["green", "white"]
+{
+  "coordinates": {
+    "lat": 41.8781,
+    "lon": -87.6298
   },
-  {
-    "city": "Omaha",
-    "distance": 4,
-    "colors": ["blue"]
-  },
-  {
-    "city": "Duluth",
-    "distance": 3,
-    "colors": ["red"]
-  },
-  {
-    "city": "Toronto",
-    "distance": 4,
-    "colors": ["white"]
-  },
-  {
-    "city": "Pittsburgh",
-    "distance": 3,
-    "colors": ["black", "orange"]
-  }
-]
+  "connections": [
+    {
+      "city": "St. Louis",
+      "distance": 2,
+      "colors": [
+        "green",
+        "white"
+      ]
+    },
+    {
+      "city": "Omaha",
+      "distance": 4,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "Duluth",
+      "distance": 3,
+      "colors": [
+        "red"
+      ]
+    },
+    {
+      "city": "Toronto",
+      "distance": 4,
+      "colors": [
+        "white"
+      ]
+    },
+    {
+      "city": "Pittsburgh",
+      "distance": 3,
+      "colors": [
+        "black",
+        "orange"
+      ]
+    }
+  ]
+}

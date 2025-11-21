@@ -1,22 +1,36 @@
-[
-  {
-    "city": "Helena",
-    "distance": 4,
-    "colors": ["blue"]
+{
+  "coordinates": {
+    "lat": 49.8951,
+    "lon": -97.1384
   },
-  {
-    "city": "Calgary",
-    "distance": 6,
-    "colors": ["white"]
-  },
-  {
-    "city": "Sault Ste. Marie",
-    "distance": 6,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Duluth",
-    "distance": 4,
-    "colors": ["black"]
-  }
-]
+  "connections": [
+    {
+      "city": "Helena",
+      "distance": 4,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "Calgary",
+      "distance": 6,
+      "colors": [
+        "white"
+      ]
+    },
+    {
+      "city": "Sault Ste. Marie",
+      "distance": 6,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Duluth",
+      "distance": 4,
+      "colors": [
+        "black"
+      ]
+    }
+  ]
+}

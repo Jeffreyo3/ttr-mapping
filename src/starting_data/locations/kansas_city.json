@@ -1,22 +1,40 @@
-[
-  {
-    "city": "Oklahoma City",
-    "distance": 2,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 39.0997,
+    "lon": -94.5786
   },
-  {
-    "city": "Denver",
-    "distance": 4,
-    "colors": ["black", "orange"]
-  },
-  {
-    "city": "Omaha",
-    "distance": 1,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "St. Louis",
-    "distance": 2,
-    "colors": ["blue", "pink"]
-  }
-]
+  "connections": [
+    {
+      "city": "Oklahoma City",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Denver",
+      "distance": 4,
+      "colors": [
+        "black",
+        "orange"
+      ]
+    },
+    {
+      "city": "Omaha",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "St. Louis",
+      "distance": 2,
+      "colors": [
+        "blue",
+        "pink"
+      ]
+    }
+  ]
+}

@@ -1,12 +1,22 @@
-[
-  {
-    "city": "Los Angeles",
-    "distance": 2,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 36.1699,
+    "lon": -115.1398
   },
-  {
-    "city": "Salt Lake City",
-    "distance": 3,
-    "colors": ["orange"]
-  }
-]
+  "connections": [
+    {
+      "city": "Los Angeles",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "distance": 3,
+      "colors": [
+        "orange"
+      ]
+    }
+  ]
+}

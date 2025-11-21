@@ -1,17 +1,30 @@
-[
-  {
-    "city": "El Paso",
-    "distance": 6,
-    "colors": ["green"]
+{
+  "coordinates": {
+    "lat": 29.7604,
+    "lon": -95.3698
   },
-  {
-    "city": "Dallas",
-    "distance": 1,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "New Orleans",
-    "distance": 2,
-    "colors": ["grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "El Paso",
+      "distance": 6,
+      "colors": [
+        "green"
+      ]
+    },
+    {
+      "city": "Dallas",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "New Orleans",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    }
+  ]
+}

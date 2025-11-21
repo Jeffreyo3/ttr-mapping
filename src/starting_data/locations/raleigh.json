@@ -1,27 +1,45 @@
-[
-  {
-    "city": "Atlanta",
-    "distance": 2,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 35.7796,
+    "lon": -78.6382
   },
-  {
-    "city": "Nashville",
-    "distance": 3,
-    "colors": ["black"]
-  },
-  {
-    "city": "Pittsburgh",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Washington D.C.",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "Charleston",
-    "distance": 2,
-    "colors": ["grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "Atlanta",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Nashville",
+      "distance": 3,
+      "colors": [
+        "black"
+      ]
+    },
+    {
+      "city": "Pittsburgh",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Washington D.C.",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Charleston",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import random
 from dataclasses import dataclass, field
 from typing import List, Tuple
 
@@ -10,15 +9,8 @@ from src.data_types.cities import City
 @dataclass
 class Location:
     name: City
+    coordinates: dict[str, float] | None = None
     connections: List[Tuple[Location, int]] = field(default_factory=list, repr=False)
-    coordinates: dict[str, int] | None = field(default=None, repr=False)
-
-    def __post_init__(self):
-        if self.coordinates is None:
-            self.coordinates = {
-                "x": random.randint(0, 1029),
-                "y": random.randint(130, 735),
-            }
 
     def add_connection(self, other: Location, distance: int):
         if self._should_create_connection(other, new_distance=distance):

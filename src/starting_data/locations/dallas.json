@@ -1,22 +1,37 @@
-[
-  {
-    "city": "El Paso",
-    "distance": 4,
-    "colors": ["red"]
+{
+  "coordinates": {
+    "lat": 32.7767,
+    "lon": -96.797
   },
-  {
-    "city": "Oklahoma City",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "Little Rock",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Houston",
-    "distance": 1,
-    "colors": ["grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "El Paso",
+      "distance": 4,
+      "colors": [
+        "red"
+      ]
+    },
+    {
+      "city": "Oklahoma City",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Little Rock",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Houston",
+      "distance": 1,
+      "colors": [
+        "grey"
+      ]
+    }
+  ]
+}

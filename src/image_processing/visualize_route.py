@@ -28,7 +28,10 @@ ANTIALIASING_SCALE = 3
 
 
 def visualize_route(
-    route: Route, city_map: dict, output_image_path: str | None = None
+    route: Route,
+    city_map: dict,
+    output_image_path: str | None = None,
+    bounds: dict | None = None,
 ) -> None:
     """
     Visualize a route on the US map by drawing a header with city names,
@@ -38,10 +41,32 @@ def visualize_route(
         route: Route object containing two City objects
         city_map: Dictionary mapping City to Location (from build_map())
         output_image_path: Optional custom output path. Defaults to src/output_data/visualized_routes/{route.a.name}_{route.b.name}.jpeg
+        bounds: Optional dict with map bounds: {"min_lat": float, "max_lat": float, "min_lon": float, "max_lon": float}
+                If not provided, bounds will be calculated from image dimensions for North America
     """
     # Determine output path
     if output_image_path is None:
         output_image_path = str(OUTPUT_DIR / f"{route.a.name}_{route.b.name}.jpeg")
+
+    # Default bounds for North America on the map (approximate)
+    if bounds is None:
+        bounds = {
+            "min_lat": 25.0,  # Miami area
+            "max_lat": 52.0,  # Northern Canada
+            "min_lon": -125.0,  # Pacific coast
+            "max_lon": -66.5,  # Atlantic coast
+        }
+
+    def lat_lon_to_pixel(lat: float, lon: float) -> tuple[float, float]:
+        """Convert latitude/longitude to pixel coordinates on the image."""
+        # Calculate pixel position based on bounds
+        pixel_x = (
+            (lon - bounds["min_lon"]) / (bounds["max_lon"] - bounds["min_lon"])
+        ) * IMAGE_WIDTH
+        pixel_y = (
+            (bounds["max_lat"] - lat) / (bounds["max_lat"] - bounds["min_lat"])
+        ) * (IMAGE_HEIGHT - HEADER_HEIGHT) + HEADER_HEIGHT
+        return (pixel_x, pixel_y)
 
     # Load the map image
     img = Image.open(MAP_PATH).convert("RGB")
@@ -82,8 +107,9 @@ def visualize_route(
             f"{route.a.value}: {coord_a}, {route.b.value}: {coord_b}"
         )
 
-    x1, y1 = coord_a["x"], coord_a["y"]
-    x2, y2 = coord_b["x"], coord_b["y"]
+    # Convert lat/lon to pixel coordinates
+    x1, y1 = lat_lon_to_pixel(coord_a["lat"], coord_a["lon"])
+    x2, y2 = lat_lon_to_pixel(coord_b["lat"], coord_b["lon"])
 
     # Draw at higher resolution for antialiasing, then scale down
     scaled_width = IMAGE_WIDTH * ANTIALIASING_SCALE

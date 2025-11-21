@@ -1,17 +1,31 @@
-[
-  {
-    "city": "Raleigh",
-    "distance": 2,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 38.9072,
+    "lon": -77.0369
   },
-  {
-    "city": "Pittsburgh",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "New York",
-    "distance": 2,
-    "colors": ["black", "orange"]
-  }
-]
+  "connections": [
+    {
+      "city": "Raleigh",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Pittsburgh",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "New York",
+      "distance": 2,
+      "colors": [
+        "black",
+        "orange"
+      ]
+    }
+  ]
+}

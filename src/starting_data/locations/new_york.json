@@ -1,22 +1,39 @@
-[
-  {
-    "city": "Pittsburgh",
-    "distance": 2,
-    "colors": ["green", "white"]
+{
+  "coordinates": {
+    "lat": 40.7128,
+    "lon": -74.006
   },
-  {
-    "city": "Montreal",
-    "distance": 3,
-    "colors": ["blue"]
-  },
-  {
-    "city": "Boston",
-    "distance": 2,
-    "colors": ["red", "yellow"]
-  },
-  {
-    "city": "Washington D.C.",
-    "distance": 2,
-    "colors": ["black", "orange"]
-  }
-]
+  "connections": [
+    {
+      "city": "Pittsburgh",
+      "distance": 2,
+      "colors": [
+        "green",
+        "white"
+      ]
+    },
+    {
+      "city": "Montreal",
+      "distance": 3,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "Boston",
+      "distance": 2,
+      "colors": [
+        "red",
+        "yellow"
+      ]
+    },
+    {
+      "city": "Washington D.C.",
+      "distance": 2,
+      "colors": [
+        "black",
+        "orange"
+      ]
+    }
+  ]
+}

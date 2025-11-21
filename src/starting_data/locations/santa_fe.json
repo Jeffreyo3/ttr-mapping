@@ -1,22 +1,36 @@
-[
-  {
-    "city": "El Paso",
-    "distance": 2,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 35.0853,
+    "lon": -106.6056
   },
-  {
-    "city": "Phoenix",
-    "distance": 3,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Denver",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Oklahoma City",
-    "distance": 3,
-    "colors": ["blue"]
-  }
-]
+  "connections": [
+    {
+      "city": "El Paso",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Phoenix",
+      "distance": 3,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Denver",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Oklahoma City",
+      "distance": 3,
+      "colors": [
+        "blue"
+      ]
+    }
+  ]
+}

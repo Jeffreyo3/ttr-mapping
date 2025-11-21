@@ -1,22 +1,38 @@
-[
-  {
-    "city": "Portland",
-    "distance": 1,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 47.6062,
+    "lon": -122.3321
   },
-  {
-    "city": "Vancouver",
-    "distance": 1,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "Calgary",
-    "distance": 4,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Helena",
-    "distance": 6,
-    "colors": ["yellow"]
-  }
-]
+  "connections": [
+    {
+      "city": "Portland",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Vancouver",
+      "distance": 1,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Calgary",
+      "distance": 4,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Helena",
+      "distance": 6,
+      "colors": [
+        "yellow"
+      ]
+    }
+  ]
+}

@@ -1,22 +1,37 @@
-[
-  {
-    "city": "Houston",
-    "distance": 2,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 29.9511,
+    "lon": -90.2623
   },
-  {
-    "city": "Little Rock",
-    "distance": 3,
-    "colors": ["green"]
-  },
-  {
-    "city": "Atlanta",
-    "distance": 4,
-    "colors": ["orange", "yellow"]
-  },
-  {
-    "city": "Miami",
-    "distance": 6,
-    "colors": ["red"]
-  }
-]
+  "connections": [
+    {
+      "city": "Houston",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Little Rock",
+      "distance": 3,
+      "colors": [
+        "green"
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "distance": 4,
+      "colors": [
+        "orange",
+        "yellow"
+      ]
+    },
+    {
+      "city": "Miami",
+      "distance": 6,
+      "colors": [
+        "red"
+      ]
+    }
+  ]
+}

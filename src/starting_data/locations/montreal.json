@@ -1,22 +1,37 @@
-[
-  {
-    "city": "Toronto",
-    "distance": 3,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 45.5017,
+    "lon": -73.5673
   },
-  {
-    "city": "Sault Ste. Marie",
-    "distance": 5,
-    "colors": ["black"]
-  },
-  {
-    "city": "Boston",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "New York",
-    "distance": 3,
-    "colors": ["blue"]
-  }
-]
+  "connections": [
+    {
+      "city": "Toronto",
+      "distance": 3,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Sault Ste. Marie",
+      "distance": 5,
+      "colors": [
+        "black"
+      ]
+    },
+    {
+      "city": "Boston",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "New York",
+      "distance": 3,
+      "colors": [
+        "blue"
+      ]
+    }
+  ]
+}

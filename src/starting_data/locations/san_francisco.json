@@ -1,17 +1,32 @@
-[
-  {
-    "city": "Portland",
-    "distance": 5,
-    "colors": ["green", "pink"]
+{
+  "coordinates": {
+    "lat": 37.7749,
+    "lon": -122.4194
   },
-  {
-    "city": "Salt Lake City",
-    "distance": 5,
-    "colors": ["orange", "white"]
-  },
-  {
-    "city": "Los Angeles",
-    "distance": 3,
-    "colors": ["pink", "yellow"]
-  }
-]
+  "connections": [
+    {
+      "city": "Portland",
+      "distance": 5,
+      "colors": [
+        "green",
+        "pink"
+      ]
+    },
+    {
+      "city": "Salt Lake City",
+      "distance": 5,
+      "colors": [
+        "orange",
+        "white"
+      ]
+    },
+    {
+      "city": "Los Angeles",
+      "distance": 3,
+      "colors": [
+        "pink",
+        "yellow"
+      ]
+    }
+  ]
+}

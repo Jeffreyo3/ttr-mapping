@@ -1,27 +1,46 @@
-[
-  {
-    "city": "Miami",
-    "distance": 5,
-    "colors": ["blue"]
+{
+  "coordinates": {
+    "lat": 33.749,
+    "lon": -84.388
   },
-  {
-    "city": "New Orleans",
-    "distance": 4,
-    "colors": ["orange", "yellow"]
-  },
-  {
-    "city": "Nashville",
-    "distance": 1,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Raleigh",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  },
-  {
-    "city": "Charleston",
-    "distance": 2,
-    "colors": ["grey", "grey"]
-  }
-]
+  "connections": [
+    {
+      "city": "Miami",
+      "distance": 5,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "New Orleans",
+      "distance": 4,
+      "colors": [
+        "orange",
+        "yellow"
+      ]
+    },
+    {
+      "city": "Nashville",
+      "distance": 1,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Raleigh",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "Charleston",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    }
+  ]
+}

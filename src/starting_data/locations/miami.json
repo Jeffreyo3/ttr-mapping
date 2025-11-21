@@ -1,17 +1,29 @@
-[
-  {
-    "city": "New Orleans",
-    "distance": 6,
-    "colors": ["red"]
+{
+  "coordinates": {
+    "lat": 25.7617,
+    "lon": -80.1918
   },
-  {
-    "city": "Atlanta",
-    "distance": 5,
-    "colors": ["blue"]
-  },
-  {
-    "city": "Charleston",
-    "distance": 4,
-    "colors": ["pink"]
-  }
-]
+  "connections": [
+    {
+      "city": "New Orleans",
+      "distance": 6,
+      "colors": [
+        "red"
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "distance": 5,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "city": "Charleston",
+      "distance": 4,
+      "colors": [
+        "pink"
+      ]
+    }
+  ]
+}

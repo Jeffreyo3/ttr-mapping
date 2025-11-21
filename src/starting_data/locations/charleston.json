@@ -1,17 +1,29 @@
-[
-  {
-    "city": "Raleigh",
-    "distance": 2,
-    "colors": ["grey"]
+{
+  "coordinates": {
+    "lat": 32.7765,
+    "lon": -79.4613
   },
-  {
-    "city": "Atlanta",
-    "distance": 2,
-    "colors": ["grey"]
-  },
-  {
-    "city": "Miami",
-    "distance": 4,
-    "colors": ["pink"]
-  }
-]
+  "connections": [
+    {
+      "city": "Raleigh",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Atlanta",
+      "distance": 2,
+      "colors": [
+        "grey"
+      ]
+    },
+    {
+      "city": "Miami",
+      "distance": 4,
+      "colors": [
+        "pink"
+      ]
+    }
+  ]
+}

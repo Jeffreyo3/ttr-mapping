@@ -1,12 +1,24 @@
-[
-  {
-    "city": "Montreal",
-    "distance": 2,
-    "colors": ["grey", "grey"]
+{
+  "coordinates": {
+    "lat": 42.3601,
+    "lon": -71.0589
   },
-  {
-    "city": "New York",
-    "distance": 2,
-    "colors": ["red", "yellow"]
-  }
-]
+  "connections": [
+    {
+      "city": "Montreal",
+      "distance": 2,
+      "colors": [
+        "grey",
+        "grey"
+      ]
+    },
+    {
+      "city": "New York",
+      "distance": 2,
+      "colors": [
+        "red",
+        "yellow"
+      ]
+    }
+  ]
+}
