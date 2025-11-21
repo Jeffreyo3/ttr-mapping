@@ -8,7 +8,6 @@ from src.data_types.route import Route
 FONT_PATH = (
     Path(__file__).parent.parent / "starting_data" / "fonts" / "CHIPPEWA_FALLS.TTF"
 )
-MAP_PATH = Path(__file__).parent.parent / "starting_data" / "maps" / "US_MAP.jpg"
 OUTPUT_DIR = Path(__file__).parent.parent / "output_data" / "visualized_routes"
 
 # Colors (hex to RGB)
@@ -30,31 +29,33 @@ ANTIALIASING_SCALE = 3
 def visualize_route(
     route: Route,
     city_map: dict,
+    map_path: str,
     output_image_path: str | None = None,
     bounds: dict | None = None,
 ) -> None:
     """
-    Visualize a route on the US map by drawing a header with city names,
+    Visualize a route on a map by drawing a header with city names,
     red dots at each city's coordinates, and a green line connecting them.
 
     Args:
         route: Route object containing two City objects
         city_map: Dictionary mapping City to Location (from build_map())
+        map_path: Path to the map image file
         output_image_path: Optional custom output path. Defaults to src/output_data/visualized_routes/{route.a.name}_{route.b.name}.jpeg
         bounds: Optional dict with map bounds: {"min_lat": float, "max_lat": float, "min_lon": float, "max_lon": float}
-                If not provided, bounds will be calculated from image dimensions for North America
+                If not provided, defaults to entire Earth: lat [-90, 90], lon [-180, 180]
     """
     # Determine output path
     if output_image_path is None:
         output_image_path = str(OUTPUT_DIR / f"{route.a.name}_{route.b.name}.jpeg")
 
-    # Default bounds for North America on the map (approximate)
+    # Default bounds for entire Earth
     if bounds is None:
         bounds = {
-            "min_lat": 25.0,  # Miami area
-            "max_lat": 52.0,  # Northern Canada
-            "min_lon": -125.0,  # Pacific coast
-            "max_lon": -66.5,  # Atlantic coast
+            "min_lat": -90.0,   # South pole
+            "max_lat": 90.0,    # North pole
+            "min_lon": -180.0,  # International Date Line (west)
+            "max_lon": 180.0,   # International Date Line (east)
         }
 
     def lat_lon_to_pixel(lat: float, lon: float) -> tuple[float, float]:
@@ -69,7 +70,7 @@ def visualize_route(
         return (pixel_x, pixel_y)
 
     # Load the map image
-    img = Image.open(MAP_PATH).convert("RGB")
+    img = Image.open(map_path).convert("RGB")
     img = img.resize((IMAGE_WIDTH, IMAGE_HEIGHT), Image.Resampling.LANCZOS)
 
     draw = ImageDraw.Draw(img)
