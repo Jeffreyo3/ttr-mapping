@@ -45,6 +45,19 @@ LON_LEFT_THIRD_PERCENT = 0.333
 LON_LEFT_QUARTER_PERCENT = 0.25
 LON_RIGHT_QUARTER_PERCENT = 0.25
 
+# Route value colors for border (low to high)
+ROUTE_VALUE_BORDER_COLORS = {
+    (0, 4): (102, 0, 0),  # Red (matching dots)
+    (5, 9): (0, 128, 128),  # Teal
+    (10, 14): (0, 128, 0),  # Green
+    (15, 19): (128, 0, 128),  # Purple
+    (20, float("inf")): (255, 200, 0),  # Orange
+}
+
+# Border styling
+BORDER_WIDTH = LINE_WIDTH * 2  # Twice the line width
+BORDER_DASH_WIDTH = 10  # Dash segment width in pixels
+
 
 def lat_lon_to_pixel(
     lat: float,
@@ -107,6 +120,64 @@ def _load_font(font_path: str, size: int) -> ImageFont.FreeTypeFont:
         return ImageFont.truetype(font_path, size=size)
     except (OSError, FileNotFoundError):
         return ImageFont.load_default(size=int(size * 0.6))
+
+
+def _get_border_color_for_route_value(route_value: int) -> tuple[int, int, int]:
+    """Get border color based on route value range."""
+    for (min_val, max_val), color in ROUTE_VALUE_BORDER_COLORS.items():
+        if min_val <= route_value <= max_val:
+            return color
+    return RED  # Fallback to red
+
+
+def _draw_dashed_border(
+    draw: ImageDraw.ImageDraw,
+    image_width: int,
+    image_height: int,
+    color: tuple[int, int, int],
+    width: int,
+) -> None:
+    """Draw a dashed border around the image."""
+    dash_length = BORDER_DASH_WIDTH * 8
+    gap_length = BORDER_DASH_WIDTH // 2
+
+    # Top border (horizontal dashes left to right)
+    for x in range(0, image_width, dash_length + gap_length):
+        draw.line(
+            [(x, width // 2), (min(x + dash_length, image_width), width // 2)],
+            fill=color,
+            width=width,
+        )
+
+    # Bottom border (horizontal dashes left to right)
+    for x in range(0, image_width, dash_length + gap_length):
+        draw.line(
+            [
+                (x, image_height - width // 2),
+                (min(x + dash_length, image_width), image_height - width // 2),
+            ],
+            fill=color,
+            width=width,
+        )
+
+    # Left border (vertical dashes top to bottom)
+    for y in range(0, image_height, dash_length + gap_length):
+        draw.line(
+            [(width // 2, y), (width // 2, min(y + dash_length, image_height))],
+            fill=color,
+            width=width,
+        )
+
+    # Right border (vertical dashes top to bottom)
+    for y in range(0, image_height, dash_length + gap_length):
+        draw.line(
+            [
+                (image_width - width // 2, y),
+                (image_width - width // 2, min(y + dash_length, image_height)),
+            ],
+            fill=color,
+            width=width,
+        )
 
 
 def _draw_curved_line(
@@ -344,6 +415,12 @@ def _visualize_single_route(
         + int(score_text_height * SCORE_TEXT_VERTICAL_OFFSET)
     )
     draw.text((text_x, text_y), score_text, fill=BLACK, font=score_font)
+
+    # Draw colored dashed border based on route value
+    border_color = _get_border_color_for_route_value(route.value)
+    _draw_dashed_border(
+        draw, image_width, image_height, border_color, int(BORDER_WIDTH / 1.5)
+    )
 
     # Save the image
     img.save(output_image_path, "JPEG", quality=100)
