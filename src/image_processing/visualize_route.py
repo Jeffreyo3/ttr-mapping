@@ -176,17 +176,40 @@ def visualize_route(
         score_text_width = bbox[2] - bbox[0]
         score_text_height = bbox[3] - bbox[1]
 
-        # Circle parameters (doubled diameter)
-        padding = 40
-        circle_radius = max(score_text_width, score_text_height) + padding
+        # Circle parameters - fixed size consistent for all scores
+        # Use a fixed radius that fits single-digit and double-digit scores well
+        circle_radius = int(SCORE_FONT_SIZE * 0.84)
 
         # Determine score position based on longitude
-        # If both cities are in the right half of the bounds, place on bottom left
+        # Calculate third and quarter points
+        lon_range = bounds["max_lon"] - bounds["min_lon"]
         lon_midpoint = (bounds["min_lon"] + bounds["max_lon"]) / 2
-        if coord_a["lon"] > lon_midpoint and coord_b["lon"] > lon_midpoint:
-            circle_x = circle_radius + 20
-        else:
+        left_third = bounds["min_lon"] + lon_range * 0.333
+        left_quarter = bounds["min_lon"] + lon_range * 0.25
+        right_quarter = bounds["max_lon"] - lon_range * 0.25
+
+        # Check if one location is in left 1/4 and the other is in right 1/4
+        one_left_one_right = (
+            coord_a["lon"] < left_quarter and coord_b["lon"] > right_quarter
+        ) or (coord_b["lon"] < left_quarter and coord_a["lon"] > right_quarter)
+
+        # Check if one location is in left half and the other is not in right 1/4
+        one_left_one_not_right_quarter = (
+            coord_a["lon"] < lon_midpoint and coord_b["lon"] <= right_quarter
+        ) or (coord_b["lon"] < lon_midpoint and coord_a["lon"] <= right_quarter)
+
+        if one_left_one_right:
+            # One on left 1/4, one on right 1/4: center the score
+            circle_x = IMAGE_WIDTH // 2
+        elif one_left_one_not_right_quarter:
+            # One in left half, other not in right 1/4: place score on right
             circle_x = IMAGE_WIDTH - circle_radius - 20
+        elif coord_a["lon"] < left_third and coord_b["lon"] < left_third:
+            # Both cities are in left 1/3, place score on right
+            circle_x = IMAGE_WIDTH - circle_radius - 20
+        else:
+            # Default: place score on left
+            circle_x = circle_radius + 20
 
         circle_y = IMAGE_HEIGHT - circle_radius - 20
 
@@ -202,7 +225,7 @@ def visualize_route(
                 (circle_x - circle_radius, circle_y - circle_radius),
                 (circle_x + circle_radius, circle_y + circle_radius),
             ],
-            fill=(255, 255, 255, 190),
+            fill=(255, 255, 255, 150),
             outline=DARK_GREEN,
             width=int(LINE_WIDTH / 1.5),
         )
@@ -215,7 +238,7 @@ def visualize_route(
             circle_y
             - score_text_height // 2
             - score_text_height // 2
-            + int(score_text_height * 0.075)
+            + int(score_text_height * 0.12)
         )
         draw.text((text_x, text_y), score_text, fill=BLACK, font=score_font)
 
