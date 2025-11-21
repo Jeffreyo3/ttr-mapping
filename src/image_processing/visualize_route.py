@@ -100,6 +100,20 @@ def visualize_route(
         text_width = bbox[2] - bbox[0]
         text_height = bbox[3] - bbox[1]
 
+        # Scale down font if text exceeds image width (with 20px padding on each side)
+        max_text_width = image_width - 40
+        if text_width > max_text_width:
+            scale_factor = max_text_width / text_width
+            new_font_size = int(FONT_SIZE * scale_factor)
+            try:
+                font = ImageFont.truetype(str(FONT_PATH), size=new_font_size)
+            except (OSError, FileNotFoundError):
+                font = ImageFont.load_default(size=int(new_font_size * 0.6))
+            # Recalculate dimensions with new font
+            bbox = draw.textbbox((0, 0), header_text, font=font)
+            text_width = bbox[2] - bbox[0]
+            text_height = bbox[3] - bbox[1]
+
         text_x = (image_width - text_width) // 2
         text_y = (HEADER_HEIGHT - text_height) // 2 - 10
 
