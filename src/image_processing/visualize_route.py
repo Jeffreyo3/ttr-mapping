@@ -390,7 +390,7 @@ def visualize_route(
     # Generate individual images and collect their paths
     image_paths = []
     for route in routes:
-        image_path = OUTPUT_DIR / f"{route.a.name}_{route.b.name}.jpeg"
+        image_path = OUTPUT_DIR / f"{route.value}_{route.a.name}_{route.b.name}.jpeg"
         _visualize_single_route(
             route,
             str(image_path),

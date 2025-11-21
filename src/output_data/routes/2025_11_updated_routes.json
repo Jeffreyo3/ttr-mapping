@@ -1,8 +1,183 @@
 [
   {
+    "a": "Atlanta",
+    "b": "Charleston",
+    "value": 2
+  },
+  {
+    "a": "Atlanta",
+    "b": "Dallas",
+    "value": 6
+  },
+  {
+    "a": "Atlanta",
+    "b": "Houston",
+    "value": 6
+  },
+  {
+    "a": "Atlanta",
+    "b": "Las Vegas",
+    "value": 16
+  },
+  {
+    "a": "Atlanta",
+    "b": "New York",
+    "value": 6
+  },
+  {
+    "a": "Atlanta",
+    "b": "San Francisco",
+    "value": 18
+  },
+  {
+    "a": "Atlanta",
+    "b": "Winnipeg",
+    "value": 12
+  },
+  {
     "a": "Boston",
     "b": "Atlanta",
     "value": 8
+  },
+  {
+    "a": "Boston",
+    "b": "Calgary",
+    "value": 20
+  },
+  {
+    "a": "Boston",
+    "b": "Charleston",
+    "value": 8
+  },
+  {
+    "a": "Boston",
+    "b": "Dallas",
+    "value": 14
+  },
+  {
+    "a": "Boston",
+    "b": "Denver",
+    "value": 16
+  },
+  {
+    "a": "Boston",
+    "b": "Duluth",
+    "value": 10
+  },
+  {
+    "a": "Boston",
+    "b": "El Paso",
+    "value": 18
+  },
+  {
+    "a": "Boston",
+    "b": "Helena",
+    "value": 17
+  },
+  {
+    "a": "Boston",
+    "b": "Houston",
+    "value": 15
+  },
+  {
+    "a": "Boston",
+    "b": "Kansas City",
+    "value": 11
+  },
+  {
+    "a": "Boston",
+    "b": "Las Vegas",
+    "value": 22
+  },
+  {
+    "a": "Boston",
+    "b": "Little Rock",
+    "value": 11
+  },
+  {
+    "a": "Boston",
+    "b": "Los Angeles",
+    "value": 23
+  },
+  {
+    "a": "Boston",
+    "b": "Miami",
+    "value": 12
+  },
+  {
+    "a": "Boston",
+    "b": "Montreal",
+    "value": 2
+  },
+  {
+    "a": "Boston",
+    "b": "Nashville",
+    "value": 8
+  },
+  {
+    "a": "Boston",
+    "b": "New Orleans",
+    "value": 12
+  },
+  {
+    "a": "Boston",
+    "b": "New York",
+    "value": 2
+  },
+  {
+    "a": "Boston",
+    "b": "Omaha",
+    "value": 11
+  },
+  {
+    "a": "Boston",
+    "b": "Phoenix",
+    "value": 20
+  },
+  {
+    "a": "Boston",
+    "b": "Pittsburgh",
+    "value": 4
+  },
+  {
+    "a": "Boston",
+    "b": "Portland",
+    "value": 24
+  },
+  {
+    "a": "Boston",
+    "b": "Raleigh",
+    "value": 6
+  },
+  {
+    "a": "Boston",
+    "b": "San Francisco",
+    "value": 24
+  },
+  {
+    "a": "Boston",
+    "b": "Santa Fe",
+    "value": 17
+  },
+  {
+    "a": "Boston",
+    "b": "Sault Ste. Marie",
+    "value": 7
+  },
+  {
+    "a": "Boston",
+    "b": "Seattle",
+    "value": 23
+  },
+  {
+    "a": "Boston",
+    "b": "Vancouver",
+    "value": 23
+  },
+  {
+    "a": "Boston",
+    "b": "Winnipeg",
+    "value": 14
   },
   {
     "a": "Calgary",
@@ -11,18 +186,8 @@
   },
   {
     "a": "Calgary",
-    "b": "Boston",
-    "value": 20
-  },
-  {
-    "a": "Calgary",
     "b": "Charleston",
     "value": 18
-  },
-  {
-    "a": "Calgary",
-    "b": "Chicago",
-    "value": 14
   },
   {
     "a": "Calgary",
@@ -31,13 +196,33 @@
   },
   {
     "a": "Calgary",
-    "b": "Denver",
-    "value": 8
+    "b": "Duluth",
+    "value": 10
   },
   {
     "a": "Calgary",
-    "b": "Los Angeles",
+    "b": "El Paso",
     "value": 12
+  },
+  {
+    "a": "Calgary",
+    "b": "Helena",
+    "value": 4
+  },
+  {
+    "a": "Calgary",
+    "b": "Houston",
+    "value": 16
+  },
+  {
+    "a": "Calgary",
+    "b": "Kansas City",
+    "value": 10
+  },
+  {
+    "a": "Calgary",
+    "b": "Las Vegas",
+    "value": 10
   },
   {
     "a": "Calgary",
@@ -51,8 +236,8 @@
   },
   {
     "a": "Calgary",
-    "b": "Phoenix",
-    "value": 14
+    "b": "Portland",
+    "value": 5
   },
   {
     "a": "Calgary",
@@ -61,78 +246,18 @@
   },
   {
     "a": "Calgary",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Calgary",
-    "b": "Santa Fe",
+    "b": "San Francisco",
     "value": 10
   },
   {
     "a": "Calgary",
-    "b": "Sault Ste. Marie",
-    "value": 12
+    "b": "Vancouver",
+    "value": 3
   },
   {
     "a": "Calgary",
-    "b": "St. Louis",
-    "value": 12
-  },
-  {
-    "a": "Calgary",
-    "b": "Toronto",
-    "value": 15
-  },
-  {
-    "a": "Calgary",
-    "b": "Washington D.C.",
-    "value": 19
-  },
-  {
-    "a": "Charleston",
-    "b": "Atlanta",
-    "value": 2
-  },
-  {
-    "a": "Charleston",
-    "b": "Boston",
-    "value": 8
-  },
-  {
-    "a": "Charleston",
-    "b": "Chicago",
-    "value": 7
-  },
-  {
-    "a": "Charleston",
-    "b": "Denver",
-    "value": 11
-  },
-  {
-    "a": "Charleston",
-    "b": "Montreal",
-    "value": 9
-  },
-  {
-    "a": "Charleston",
-    "b": "Phoenix",
-    "value": 15
-  },
-  {
-    "a": "Charleston",
-    "b": "Raleigh",
-    "value": 2
-  },
-  {
-    "a": "Charleston",
-    "b": "Salt Lake City",
-    "value": 15
-  },
-  {
-    "a": "Charleston",
-    "b": "Washington D.C.",
-    "value": 4
+    "b": "Winnipeg",
+    "value": 6
   },
   {
     "a": "Chicago",
@@ -145,54 +270,174 @@
     "value": 7
   },
   {
-    "a": "Dallas",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "Dallas",
-    "b": "Boston",
+    "a": "Chicago",
+    "b": "Calgary",
     "value": 14
   },
   {
-    "a": "Dallas",
+    "a": "Chicago",
     "b": "Charleston",
+    "value": 7
+  },
+  {
+    "a": "Chicago",
+    "b": "Dallas",
+    "value": 6
+  },
+  {
+    "a": "Chicago",
+    "b": "Denver",
     "value": 8
   },
   {
-    "a": "Dallas",
-    "b": "Chicago",
-    "value": 6
+    "a": "Chicago",
+    "b": "Duluth",
+    "value": 3
   },
   {
-    "a": "Dallas",
-    "b": "Denver",
-    "value": 6
+    "a": "Chicago",
+    "b": "El Paso",
+    "value": 10
   },
   {
-    "a": "Dallas",
+    "a": "Chicago",
+    "b": "Helena",
+    "value": 9
+  },
+  {
+    "a": "Chicago",
+    "b": "Houston",
+    "value": 7
+  },
+  {
+    "a": "Chicago",
+    "b": "Kansas City",
+    "value": 4
+  },
+  {
+    "a": "Chicago",
+    "b": "Las Vegas",
+    "value": 15
+  },
+  {
+    "a": "Chicago",
+    "b": "Little Rock",
+    "value": 4
+  },
+  {
+    "a": "Chicago",
+    "b": "Los Angeles",
+    "value": 16
+  },
+  {
+    "a": "Chicago",
+    "b": "Miami",
+    "value": 10
+  },
+  {
+    "a": "Chicago",
     "b": "Montreal",
-    "value": 14
+    "value": 7
   },
   {
-    "a": "Dallas",
+    "a": "Chicago",
+    "b": "Nashville",
+    "value": 4
+  },
+  {
+    "a": "Chicago",
+    "b": "New Orleans",
+    "value": 7
+  },
+  {
+    "a": "Chicago",
+    "b": "New York",
+    "value": 5
+  },
+  {
+    "a": "Chicago",
+    "b": "Oklahoma City",
+    "value": 6
+  },
+  {
+    "a": "Chicago",
+    "b": "Omaha",
+    "value": 4
+  },
+  {
+    "a": "Chicago",
     "b": "Phoenix",
+    "value": 12
+  },
+  {
+    "a": "Chicago",
+    "b": "Pittsburgh",
+    "value": 3
+  },
+  {
+    "a": "Chicago",
+    "b": "Portland",
+    "value": 17
+  },
+  {
+    "a": "Chicago",
+    "b": "Raleigh",
+    "value": 5
+  },
+  {
+    "a": "Chicago",
+    "b": "Salt Lake City",
+    "value": 11
+  },
+  {
+    "a": "Chicago",
+    "b": "San Francisco",
+    "value": 17
+  },
+  {
+    "a": "Chicago",
+    "b": "Santa Fe",
+    "value": 9
+  },
+  {
+    "a": "Chicago",
+    "b": "Sault Ste. Marie",
+    "value": 6
+  },
+  {
+    "a": "Chicago",
+    "b": "Seattle",
+    "value": 16
+  },
+  {
+    "a": "Chicago",
+    "b": "St. Louis",
+    "value": 2
+  },
+  {
+    "a": "Chicago",
+    "b": "Toronto",
+    "value": 4
+  },
+  {
+    "a": "Chicago",
+    "b": "Vancouver",
+    "value": 17
+  },
+  {
+    "a": "Chicago",
+    "b": "Washington D.C.",
+    "value": 5
+  },
+  {
+    "a": "Chicago",
+    "b": "Winnipeg",
     "value": 7
   },
   {
     "a": "Dallas",
-    "b": "Raleigh",
+    "b": "Charleston",
     "value": 8
-  },
-  {
-    "a": "Dallas",
-    "b": "Salt Lake City",
-    "value": 9
-  },
-  {
-    "a": "Dallas",
-    "b": "Washington D.C.",
-    "value": 10
   },
   {
     "a": "Denver",
@@ -201,48 +446,98 @@
   },
   {
     "a": "Denver",
-    "b": "Boston",
-    "value": 16
-  },
-  {
-    "a": "Denver",
-    "b": "Chicago",
-    "value": 8
-  },
-  {
-    "a": "Duluth",
-    "b": "Atlanta",
-    "value": 8
-  },
-  {
-    "a": "Duluth",
-    "b": "Boston",
-    "value": 10
-  },
-  {
-    "a": "Duluth",
     "b": "Calgary",
-    "value": 10
+    "value": 8
+  },
+  {
+    "a": "Denver",
+    "b": "Charleston",
+    "value": 11
+  },
+  {
+    "a": "Denver",
+    "b": "Dallas",
+    "value": 6
+  },
+  {
+    "a": "Denver",
+    "b": "Duluth",
+    "value": 6
+  },
+  {
+    "a": "Denver",
+    "b": "El Paso",
+    "value": 4
+  },
+  {
+    "a": "Denver",
+    "b": "Helena",
+    "value": 4
+  },
+  {
+    "a": "Denver",
+    "b": "Houston",
+    "value": 7
+  },
+  {
+    "a": "Denver",
+    "b": "Kansas City",
+    "value": 4
+  },
+  {
+    "a": "Denver",
+    "b": "Las Vegas",
+    "value": 6
+  },
+  {
+    "a": "Denver",
+    "b": "Montreal",
+    "value": 15
+  },
+  {
+    "a": "Denver",
+    "b": "New York",
+    "value": 14
+  },
+  {
+    "a": "Denver",
+    "b": "Portland",
+    "value": 9
+  },
+  {
+    "a": "Denver",
+    "b": "Raleigh",
+    "value": 11
+  },
+  {
+    "a": "Denver",
+    "b": "San Francisco",
+    "value": 8
+  },
+  {
+    "a": "Denver",
+    "b": "Vancouver",
+    "value": 11
+  },
+  {
+    "a": "Denver",
+    "b": "Winnipeg",
+    "value": 8
+  },
+  {
+    "a": "Duluth",
+    "b": "Atlanta",
+    "value": 8
   },
   {
     "a": "Duluth",
     "b": "Charleston",
     "value": 10
-  },
-  {
-    "a": "Duluth",
-    "b": "Chicago",
-    "value": 3
   },
   {
     "a": "Duluth",
     "b": "Dallas",
     "value": 7
-  },
-  {
-    "a": "Duluth",
-    "b": "Denver",
-    "value": 6
   },
   {
     "a": "Duluth",
@@ -271,48 +566,13 @@
   },
   {
     "a": "Duluth",
-    "b": "Little Rock",
-    "value": 7
-  },
-  {
-    "a": "Duluth",
-    "b": "Los Angeles",
-    "value": 15
-  },
-  {
-    "a": "Duluth",
     "b": "Montreal",
     "value": 8
   },
   {
     "a": "Duluth",
-    "b": "Nashville",
-    "value": 7
-  },
-  {
-    "a": "Duluth",
-    "b": "New Orleans",
-    "value": 10
-  },
-  {
-    "a": "Duluth",
     "b": "New York",
     "value": 8
-  },
-  {
-    "a": "Duluth",
-    "b": "Oklahoma City",
-    "value": 5
-  },
-  {
-    "a": "Duluth",
-    "b": "Phoenix",
-    "value": 11
-  },
-  {
-    "a": "Duluth",
-    "b": "Pittsburgh",
-    "value": 6
   },
   {
     "a": "Duluth",
@@ -326,43 +586,13 @@
   },
   {
     "a": "Duluth",
-    "b": "Salt Lake City",
-    "value": 9
-  },
-  {
-    "a": "Duluth",
     "b": "San Francisco",
     "value": 15
   },
   {
     "a": "Duluth",
-    "b": "Santa Fe",
-    "value": 8
-  },
-  {
-    "a": "Duluth",
-    "b": "Sault Ste. Marie",
-    "value": 3
-  },
-  {
-    "a": "Duluth",
-    "b": "Seattle",
-    "value": 12
-  },
-  {
-    "a": "Duluth",
-    "b": "St. Louis",
-    "value": 5
-  },
-  {
-    "a": "Duluth",
-    "b": "Toronto",
-    "value": 5
-  },
-  {
-    "a": "Duluth",
-    "b": "Washington D.C.",
-    "value": 8
+    "b": "Vancouver",
+    "value": 14
   },
   {
     "a": "Duluth",
@@ -376,38 +606,13 @@
   },
   {
     "a": "El Paso",
-    "b": "Boston",
-    "value": 18
-  },
-  {
-    "a": "El Paso",
-    "b": "Calgary",
-    "value": 12
-  },
-  {
-    "a": "El Paso",
     "b": "Charleston",
     "value": 12
   },
   {
     "a": "El Paso",
-    "b": "Chicago",
-    "value": 10
-  },
-  {
-    "a": "El Paso",
     "b": "Dallas",
     "value": 4
-  },
-  {
-    "a": "El Paso",
-    "b": "Denver",
-    "value": 4
-  },
-  {
-    "a": "El Paso",
-    "b": "Helena",
-    "value": 8
   },
   {
     "a": "El Paso",
@@ -421,88 +626,13 @@
   },
   {
     "a": "El Paso",
-    "b": "Little Rock",
-    "value": 6
-  },
-  {
-    "a": "El Paso",
-    "b": "Los Angeles",
-    "value": 6
-  },
-  {
-    "a": "El Paso",
-    "b": "Montreal",
-    "value": 18
-  },
-  {
-    "a": "El Paso",
-    "b": "New Orleans",
-    "value": 7
-  },
-  {
-    "a": "El Paso",
     "b": "New York",
     "value": 16
   },
   {
     "a": "El Paso",
-    "b": "Oklahoma City",
-    "value": 5
-  },
-  {
-    "a": "El Paso",
-    "b": "Phoenix",
-    "value": 3
-  },
-  {
-    "a": "El Paso",
-    "b": "Pittsburgh",
-    "value": 14
-  },
-  {
-    "a": "El Paso",
-    "b": "Portland",
-    "value": 14
-  },
-  {
-    "a": "El Paso",
-    "b": "Raleigh",
-    "value": 12
-  },
-  {
-    "a": "El Paso",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "El Paso",
     "b": "San Francisco",
     "value": 9
-  },
-  {
-    "a": "El Paso",
-    "b": "Santa Fe",
-    "value": 2
-  },
-  {
-    "a": "El Paso",
-    "b": "Sault Ste. Marie",
-    "value": 14
-  },
-  {
-    "a": "El Paso",
-    "b": "St. Louis",
-    "value": 8
-  },
-  {
-    "a": "El Paso",
-    "b": "Toronto",
-    "value": 15
-  },
-  {
-    "a": "El Paso",
-    "b": "Washington D.C.",
-    "value": 15
   },
   {
     "a": "El Paso",
@@ -516,23 +646,8 @@
   },
   {
     "a": "Helena",
-    "b": "Boston",
-    "value": 17
-  },
-  {
-    "a": "Helena",
-    "b": "Calgary",
-    "value": 4
-  },
-  {
-    "a": "Helena",
     "b": "Charleston",
     "value": 14
-  },
-  {
-    "a": "Helena",
-    "b": "Chicago",
-    "value": 9
   },
   {
     "a": "Helena",
@@ -541,8 +656,8 @@
   },
   {
     "a": "Helena",
-    "b": "Denver",
-    "value": 4
+    "b": "El Paso",
+    "value": 8
   },
   {
     "a": "Helena",
@@ -556,58 +671,8 @@
   },
   {
     "a": "Helena",
-    "b": "Little Rock",
-    "value": 10
-  },
-  {
-    "a": "Helena",
-    "b": "Los Angeles",
-    "value": 8
-  },
-  {
-    "a": "Helena",
-    "b": "Montreal",
-    "value": 15
-  },
-  {
-    "a": "Helena",
-    "b": "New Orleans",
-    "value": 14
-  },
-  {
-    "a": "Helena",
     "b": "New York",
     "value": 15
-  },
-  {
-    "a": "Helena",
-    "b": "Oklahoma City",
-    "value": 8
-  },
-  {
-    "a": "Helena",
-    "b": "Phoenix",
-    "value": 9
-  },
-  {
-    "a": "Helena",
-    "b": "Pittsburgh",
-    "value": 12
-  },
-  {
-    "a": "Helena",
-    "b": "Portland",
-    "value": 7
-  },
-  {
-    "a": "Helena",
-    "b": "Raleigh",
-    "value": 14
-  },
-  {
-    "a": "Helena",
-    "b": "Salt Lake City",
-    "value": 3
   },
   {
     "a": "Helena",
@@ -616,58 +681,13 @@
   },
   {
     "a": "Helena",
-    "b": "Santa Fe",
-    "value": 6
-  },
-  {
-    "a": "Helena",
-    "b": "Sault Ste. Marie",
-    "value": 9
-  },
-  {
-    "a": "Helena",
-    "b": "St. Louis",
-    "value": 8
-  },
-  {
-    "a": "Helena",
-    "b": "Toronto",
-    "value": 11
-  },
-  {
-    "a": "Helena",
-    "b": "Washington D.C.",
-    "value": 15
-  },
-  {
-    "a": "Helena",
     "b": "Winnipeg",
     "value": 4
   },
   {
     "a": "Houston",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "Houston",
-    "b": "Boston",
-    "value": 15
-  },
-  {
-    "a": "Houston",
-    "b": "Calgary",
-    "value": 16
-  },
-  {
-    "a": "Houston",
     "b": "Charleston",
     "value": 8
-  },
-  {
-    "a": "Houston",
-    "b": "Chicago",
-    "value": 7
   },
   {
     "a": "Houston",
@@ -676,73 +696,13 @@
   },
   {
     "a": "Houston",
-    "b": "Denver",
-    "value": 7
-  },
-  {
-    "a": "Houston",
-    "b": "Los Angeles",
-    "value": 11
-  },
-  {
-    "a": "Houston",
-    "b": "Montreal",
-    "value": 15
-  },
-  {
-    "a": "Houston",
-    "b": "New Orleans",
-    "value": 2
+    "b": "Las Vegas",
+    "value": 14
   },
   {
     "a": "Houston",
     "b": "New York",
     "value": 12
-  },
-  {
-    "a": "Houston",
-    "b": "Oklahoma City",
-    "value": 3
-  },
-  {
-    "a": "Houston",
-    "b": "Phoenix",
-    "value": 8
-  },
-  {
-    "a": "Houston",
-    "b": "Raleigh",
-    "value": 8
-  },
-  {
-    "a": "Houston",
-    "b": "Salt Lake City",
-    "value": 10
-  },
-  {
-    "a": "Houston",
-    "b": "Santa Fe",
-    "value": 6
-  },
-  {
-    "a": "Houston",
-    "b": "Sault Ste. Marie",
-    "value": 11
-  },
-  {
-    "a": "Houston",
-    "b": "St. Louis",
-    "value": 5
-  },
-  {
-    "a": "Houston",
-    "b": "Toronto",
-    "value": 11
-  },
-  {
-    "a": "Houston",
-    "b": "Washington D.C.",
-    "value": 10
   },
   {
     "a": "Houston",
@@ -756,32 +716,12 @@
   },
   {
     "a": "Kansas City",
-    "b": "Boston",
-    "value": 11
-  },
-  {
-    "a": "Kansas City",
-    "b": "Calgary",
-    "value": 10
-  },
-  {
-    "a": "Kansas City",
     "b": "Charleston",
     "value": 7
   },
   {
     "a": "Kansas City",
-    "b": "Chicago",
-    "value": 4
-  },
-  {
-    "a": "Kansas City",
     "b": "Dallas",
-    "value": 4
-  },
-  {
-    "a": "Kansas City",
-    "b": "Denver",
     "value": 4
   },
   {
@@ -806,43 +746,13 @@
   },
   {
     "a": "Kansas City",
-    "b": "Little Rock",
-    "value": 4
-  },
-  {
-    "a": "Kansas City",
-    "b": "Los Angeles",
-    "value": 11
-  },
-  {
-    "a": "Kansas City",
     "b": "Montreal",
     "value": 11
   },
   {
     "a": "Kansas City",
-    "b": "New Orleans",
-    "value": 7
-  },
-  {
-    "a": "Kansas City",
     "b": "New York",
     "value": 9
-  },
-  {
-    "a": "Kansas City",
-    "b": "Oklahoma City",
-    "value": 2
-  },
-  {
-    "a": "Kansas City",
-    "b": "Phoenix",
-    "value": 8
-  },
-  {
-    "a": "Kansas City",
-    "b": "Pittsburgh",
-    "value": 7
   },
   {
     "a": "Kansas City",
@@ -856,173 +766,33 @@
   },
   {
     "a": "Kansas City",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Kansas City",
     "b": "San Francisco",
     "value": 12
   },
   {
     "a": "Kansas City",
-    "b": "Santa Fe",
-    "value": 5
-  },
-  {
-    "a": "Kansas City",
-    "b": "Sault Ste. Marie",
-    "value": 6
-  },
-  {
-    "a": "Kansas City",
-    "b": "St. Louis",
-    "value": 2
-  },
-  {
-    "a": "Kansas City",
-    "b": "Toronto",
-    "value": 8
-  },
-  {
-    "a": "Kansas City",
-    "b": "Washington D.C.",
-    "value": 9
-  },
-  {
-    "a": "Kansas City",
-    "b": "Winnipeg",
-    "value": 7
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Atlanta",
-    "value": 16
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Boston",
-    "value": 22
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Calgary",
-    "value": 10
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Charleston",
-    "value": 18
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Chicago",
-    "value": 15
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Dallas",
-    "value": 12
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Denver",
-    "value": 6
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Houston",
+    "b": "Vancouver",
     "value": 14
   },
   {
-    "a": "Las Vegas",
-    "b": "Los Angeles",
-    "value": 2
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Montreal",
-    "value": 21
-  },
-  {
-    "a": "Las Vegas",
-    "b": "New Orleans",
-    "value": 16
-  },
-  {
-    "a": "Las Vegas",
-    "b": "New York",
-    "value": 20
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Oklahoma City",
-    "value": 10
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Phoenix",
-    "value": 5
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Portland",
-    "value": 9
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Raleigh",
-    "value": 18
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Salt Lake City",
-    "value": 3
-  },
-  {
-    "a": "Las Vegas",
-    "b": "San Francisco",
-    "value": 5
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Santa Fe",
-    "value": 8
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Sault Ste. Marie",
-    "value": 16
-  },
-  {
-    "a": "Las Vegas",
-    "b": "St. Louis",
-    "value": 12
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Toronto",
-    "value": 18
-  },
-  {
-    "a": "Las Vegas",
-    "b": "Washington D.C.",
-    "value": 20
-  },
-  {
-    "a": "Las Vegas",
+    "a": "Kansas City",
     "b": "Winnipeg",
-    "value": 10
+    "value": 7
+  },
+  {
+    "a": "Las Vegas",
+    "b": "Charleston",
+    "value": 18
+  },
+  {
+    "a": "Las Vegas",
+    "b": "Dallas",
+    "value": 12
   },
   {
     "a": "Little Rock",
     "b": "Atlanta",
     "value": 4
-  },
-  {
-    "a": "Little Rock",
-    "b": "Boston",
-    "value": 11
   },
   {
     "a": "Little Rock",
@@ -1036,11 +806,6 @@
   },
   {
     "a": "Little Rock",
-    "b": "Chicago",
-    "value": 4
-  },
-  {
-    "a": "Little Rock",
     "b": "Dallas",
     "value": 2
   },
@@ -1051,8 +816,28 @@
   },
   {
     "a": "Little Rock",
+    "b": "Duluth",
+    "value": 7
+  },
+  {
+    "a": "Little Rock",
+    "b": "El Paso",
+    "value": 6
+  },
+  {
+    "a": "Little Rock",
+    "b": "Helena",
+    "value": 10
+  },
+  {
+    "a": "Little Rock",
     "b": "Houston",
     "value": 3
+  },
+  {
+    "a": "Little Rock",
+    "b": "Kansas City",
+    "value": 4
   },
   {
     "a": "Little Rock",
@@ -1071,23 +856,13 @@
   },
   {
     "a": "Little Rock",
-    "b": "New Orleans",
+    "b": "Nashville",
     "value": 3
   },
   {
     "a": "Little Rock",
     "b": "New York",
     "value": 9
-  },
-  {
-    "a": "Little Rock",
-    "b": "Oklahoma City",
-    "value": 2
-  },
-  {
-    "a": "Little Rock",
-    "b": "Phoenix",
-    "value": 8
   },
   {
     "a": "Little Rock",
@@ -1101,18 +876,8 @@
   },
   {
     "a": "Little Rock",
-    "b": "Salt Lake City",
-    "value": 9
-  },
-  {
-    "a": "Little Rock",
     "b": "San Francisco",
     "value": 15
-  },
-  {
-    "a": "Little Rock",
-    "b": "Santa Fe",
-    "value": 5
   },
   {
     "a": "Little Rock",
@@ -1121,18 +886,13 @@
   },
   {
     "a": "Little Rock",
-    "b": "St. Louis",
-    "value": 2
+    "b": "Seattle",
+    "value": 17
   },
   {
     "a": "Little Rock",
-    "b": "Toronto",
-    "value": 8
-  },
-  {
-    "a": "Little Rock",
-    "b": "Washington D.C.",
-    "value": 8
+    "b": "Vancouver",
+    "value": 18
   },
   {
     "a": "Little Rock",
@@ -1146,18 +906,13 @@
   },
   {
     "a": "Los Angeles",
-    "b": "Boston",
-    "value": 23
+    "b": "Calgary",
+    "value": 12
   },
   {
     "a": "Los Angeles",
     "b": "Charleston",
     "value": 18
-  },
-  {
-    "a": "Los Angeles",
-    "b": "Chicago",
-    "value": 16
   },
   {
     "a": "Los Angeles",
@@ -1171,13 +926,53 @@
   },
   {
     "a": "Los Angeles",
+    "b": "Duluth",
+    "value": 15
+  },
+  {
+    "a": "Los Angeles",
+    "b": "El Paso",
+    "value": 6
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Helena",
+    "value": 8
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Houston",
+    "value": 11
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Kansas City",
+    "value": 11
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Las Vegas",
+    "value": 2
+  },
+  {
+    "a": "Los Angeles",
     "b": "Montreal",
     "value": 23
   },
   {
     "a": "Los Angeles",
-    "b": "Phoenix",
-    "value": 3
+    "b": "Nashville",
+    "value": 15
+  },
+  {
+    "a": "Los Angeles",
+    "b": "New York",
+    "value": 21
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Portland",
+    "value": 8
   },
   {
     "a": "Los Angeles",
@@ -1186,23 +981,33 @@
   },
   {
     "a": "Los Angeles",
-    "b": "Salt Lake City",
-    "value": 5
+    "b": "San Francisco",
+    "value": 3
   },
   {
     "a": "Los Angeles",
-    "b": "Washington D.C.",
-    "value": 20
+    "b": "Sault Ste. Marie",
+    "value": 18
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Seattle",
+    "value": 9
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Vancouver",
+    "value": 10
+  },
+  {
+    "a": "Los Angeles",
+    "b": "Winnipeg",
+    "value": 12
   },
   {
     "a": "Miami",
     "b": "Atlanta",
     "value": 5
-  },
-  {
-    "a": "Miami",
-    "b": "Boston",
-    "value": 12
   },
   {
     "a": "Miami",
@@ -1213,11 +1018,6 @@
     "a": "Miami",
     "b": "Charleston",
     "value": 4
-  },
-  {
-    "a": "Miami",
-    "b": "Chicago",
-    "value": 10
   },
   {
     "a": "Miami",
@@ -1291,11 +1091,6 @@
   },
   {
     "a": "Miami",
-    "b": "Oklahoma City",
-    "value": 11
-  },
-  {
-    "a": "Miami",
     "b": "Omaha",
     "value": 11
   },
@@ -1321,11 +1116,6 @@
   },
   {
     "a": "Miami",
-    "b": "Salt Lake City",
-    "value": 18
-  },
-  {
-    "a": "Miami",
     "b": "San Francisco",
     "value": 23
   },
@@ -1343,16 +1133,6 @@
     "a": "Miami",
     "b": "Seattle",
     "value": 23
-  },
-  {
-    "a": "Miami",
-    "b": "St. Louis",
-    "value": 8
-  },
-  {
-    "a": "Miami",
-    "b": "Toronto",
-    "value": 10
   },
   {
     "a": "Miami",
@@ -1361,11 +1141,6 @@
   },
   {
     "a": "Miami",
-    "b": "Washington D.C.",
-    "value": 8
-  },
-  {
-    "a": "Miami",
     "b": "Winnipeg",
     "value": 18
   },
@@ -1376,28 +1151,68 @@
   },
   {
     "a": "Montreal",
-    "b": "Boston",
-    "value": 2
+    "b": "Charleston",
+    "value": 9
   },
   {
     "a": "Montreal",
-    "b": "Chicago",
+    "b": "Dallas",
+    "value": 14
+  },
+  {
+    "a": "Montreal",
+    "b": "El Paso",
+    "value": 18
+  },
+  {
+    "a": "Montreal",
+    "b": "Helena",
+    "value": 15
+  },
+  {
+    "a": "Montreal",
+    "b": "Houston",
+    "value": 15
+  },
+  {
+    "a": "Montreal",
+    "b": "Las Vegas",
+    "value": 21
+  },
+  {
+    "a": "Montreal",
+    "b": "New York",
+    "value": 3
+  },
+  {
+    "a": "Montreal",
+    "b": "Portland",
+    "value": 22
+  },
+  {
+    "a": "Montreal",
+    "b": "Raleigh",
     "value": 7
   },
   {
     "a": "Montreal",
-    "b": "Denver",
-    "value": 15
+    "b": "San Francisco",
+    "value": 23
+  },
+  {
+    "a": "Montreal",
+    "b": "Vancouver",
+    "value": 21
+  },
+  {
+    "a": "Montreal",
+    "b": "Winnipeg",
+    "value": 11
   },
   {
     "a": "Nashville",
     "b": "Atlanta",
     "value": 1
-  },
-  {
-    "a": "Nashville",
-    "b": "Boston",
-    "value": 8
   },
   {
     "a": "Nashville",
@@ -1411,11 +1226,6 @@
   },
   {
     "a": "Nashville",
-    "b": "Chicago",
-    "value": 4
-  },
-  {
-    "a": "Nashville",
     "b": "Dallas",
     "value": 5
   },
@@ -1423,6 +1233,11 @@
     "a": "Nashville",
     "b": "Denver",
     "value": 8
+  },
+  {
+    "a": "Nashville",
+    "b": "Duluth",
+    "value": 7
   },
   {
     "a": "Nashville",
@@ -1451,43 +1266,13 @@
   },
   {
     "a": "Nashville",
-    "b": "Little Rock",
-    "value": 3
-  },
-  {
-    "a": "Nashville",
-    "b": "Los Angeles",
-    "value": 15
-  },
-  {
-    "a": "Nashville",
     "b": "Montreal",
     "value": 9
   },
   {
     "a": "Nashville",
-    "b": "New Orleans",
-    "value": 5
-  },
-  {
-    "a": "Nashville",
     "b": "New York",
     "value": 6
-  },
-  {
-    "a": "Nashville",
-    "b": "Oklahoma City",
-    "value": 5
-  },
-  {
-    "a": "Nashville",
-    "b": "Phoenix",
-    "value": 11
-  },
-  {
-    "a": "Nashville",
-    "b": "Pittsburgh",
-    "value": 4
   },
   {
     "a": "Nashville",
@@ -1501,43 +1286,13 @@
   },
   {
     "a": "Nashville",
-    "b": "Salt Lake City",
-    "value": 11
-  },
-  {
-    "a": "Nashville",
     "b": "San Francisco",
     "value": 17
   },
   {
     "a": "Nashville",
-    "b": "Santa Fe",
-    "value": 8
-  },
-  {
-    "a": "Nashville",
-    "b": "Sault Ste. Marie",
-    "value": 8
-  },
-  {
-    "a": "Nashville",
-    "b": "Seattle",
-    "value": 17
-  },
-  {
-    "a": "Nashville",
-    "b": "St. Louis",
-    "value": 2
-  },
-  {
-    "a": "Nashville",
-    "b": "Toronto",
-    "value": 6
-  },
-  {
-    "a": "Nashville",
-    "b": "Washington D.C.",
-    "value": 5
+    "b": "Vancouver",
+    "value": 18
   },
   {
     "a": "Nashville",
@@ -1551,11 +1306,6 @@
   },
   {
     "a": "New Orleans",
-    "b": "Boston",
-    "value": 12
-  },
-  {
-    "a": "New Orleans",
     "b": "Calgary",
     "value": 18
   },
@@ -1566,11 +1316,6 @@
   },
   {
     "a": "New Orleans",
-    "b": "Chicago",
-    "value": 7
-  },
-  {
-    "a": "New Orleans",
     "b": "Dallas",
     "value": 3
   },
@@ -1581,1378 +1326,1643 @@
   },
   {
     "a": "New Orleans",
-    "b": "Los Angeles",
-    "value": 14
-  },
-  {
-    "a": "New Orleans",
-    "b": "Montreal",
-    "value": 14
-  },
-  {
-    "a": "New Orleans",
-    "b": "New York",
-    "value": 10
-  },
-  {
-    "a": "New Orleans",
-    "b": "Phoenix",
-    "value": 10
-  },
-  {
-    "a": "New Orleans",
-    "b": "Raleigh",
-    "value": 6
-  },
-  {
-    "a": "New Orleans",
-    "b": "Salt Lake City",
-    "value": 12
-  },
-  {
-    "a": "New Orleans",
-    "b": "Santa Fe",
-    "value": 8
-  },
-  {
-    "a": "New Orleans",
-    "b": "Sault Ste. Marie",
-    "value": 12
-  },
-  {
-    "a": "New Orleans",
-    "b": "St. Louis",
-    "value": 5
-  },
-  {
-    "a": "New Orleans",
-    "b": "Toronto",
-    "value": 10
-  },
-  {
-    "a": "New Orleans",
-    "b": "Washington D.C.",
-    "value": 8
-  },
-  {
-    "a": "New York",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "New York",
-    "b": "Boston",
-    "value": 2
-  },
-  {
-    "a": "New York",
-    "b": "Charleston",
-    "value": 6
-  },
-  {
-    "a": "New York",
-    "b": "Chicago",
-    "value": 5
-  },
-  {
-    "a": "New York",
-    "b": "Dallas",
-    "value": 11
-  },
-  {
-    "a": "New York",
-    "b": "Denver",
-    "value": 14
-  },
-  {
-    "a": "New York",
-    "b": "Los Angeles",
-    "value": 21
-  },
-  {
-    "a": "New York",
-    "b": "Montreal",
-    "value": 3
-  },
-  {
-    "a": "New York",
-    "b": "Phoenix",
-    "value": 18
-  },
-  {
-    "a": "New York",
-    "b": "Raleigh",
-    "value": 4
-  },
-  {
-    "a": "New York",
-    "b": "Salt Lake City",
-    "value": 17
-  },
-  {
-    "a": "New York",
-    "b": "Washington D.C.",
-    "value": 2
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Boston",
-    "value": 14
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Calgary",
-    "value": 12
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Charleston",
-    "value": 8
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Chicago",
-    "value": 6
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Dallas",
-    "value": 2
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Denver",
-    "value": 4
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Los Angeles",
-    "value": 9
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Montreal",
-    "value": 14
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "New Orleans",
-    "value": 5
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "New York",
-    "value": 11
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Phoenix",
-    "value": 6
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Raleigh",
-    "value": 8
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Santa Fe",
-    "value": 3
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Sault Ste. Marie",
-    "value": 8
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "St. Louis",
-    "value": 4
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Toronto",
-    "value": 10
-  },
-  {
-    "a": "Oklahoma City",
-    "b": "Washington D.C.",
-    "value": 10
-  },
-  {
-    "a": "Omaha",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "Omaha",
-    "b": "Boston",
-    "value": 11
-  },
-  {
-    "a": "Omaha",
-    "b": "Calgary",
-    "value": 9
-  },
-  {
-    "a": "Omaha",
-    "b": "Charleston",
-    "value": 8
-  },
-  {
-    "a": "Omaha",
-    "b": "Chicago",
-    "value": 4
-  },
-  {
-    "a": "Omaha",
-    "b": "Dallas",
-    "value": 5
-  },
-  {
-    "a": "Omaha",
-    "b": "Denver",
-    "value": 4
-  },
-  {
-    "a": "Omaha",
     "b": "Duluth",
+    "value": 10
+  },
+  {
+    "a": "New Orleans",
+    "b": "El Paso",
+    "value": 7
+  },
+  {
+    "a": "New Orleans",
+    "b": "Helena",
+    "value": 14
+  },
+  {
+    "a": "New Orleans",
+    "b": "Houston",
     "value": 2
   },
   {
-    "a": "Omaha",
-    "b": "El Paso",
-    "value": 8
-  },
-  {
-    "a": "Omaha",
-    "b": "Helena",
-    "value": 5
-  },
-  {
-    "a": "Omaha",
-    "b": "Houston",
-    "value": 6
-  },
-  {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Kansas City",
-    "value": 1
+    "value": 7
   },
   {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Las Vegas",
-    "value": 10
+    "value": 16
   },
   {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Little Rock",
-    "value": 5
+    "value": 3
   },
   {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Los Angeles",
-    "value": 12
+    "value": 14
   },
   {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Montreal",
-    "value": 10
+    "value": 14
   },
   {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "Nashville",
     "value": 5
   },
   {
-    "a": "Omaha",
-    "b": "New Orleans",
-    "value": 8
-  },
-  {
-    "a": "Omaha",
+    "a": "New Orleans",
     "b": "New York",
-    "value": 9
-  },
-  {
-    "a": "Omaha",
-    "b": "Oklahoma City",
-    "value": 3
-  },
-  {
-    "a": "Omaha",
-    "b": "Phoenix",
-    "value": 9
-  },
-  {
-    "a": "Omaha",
-    "b": "Pittsburgh",
-    "value": 7
-  },
-  {
-    "a": "Omaha",
-    "b": "Portland",
-    "value": 12
-  },
-  {
-    "a": "Omaha",
-    "b": "Raleigh",
-    "value": 8
-  },
-  {
-    "a": "Omaha",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Omaha",
-    "b": "San Francisco",
-    "value": 12
-  },
-  {
-    "a": "Omaha",
-    "b": "Santa Fe",
-    "value": 6
-  },
-  {
-    "a": "Omaha",
-    "b": "Sault Ste. Marie",
-    "value": 5
-  },
-  {
-    "a": "Omaha",
-    "b": "Seattle",
-    "value": 11
-  },
-  {
-    "a": "Omaha",
-    "b": "St. Louis",
-    "value": 3
-  },
-  {
-    "a": "Omaha",
-    "b": "Toronto",
-    "value": 7
-  },
-  {
-    "a": "Omaha",
-    "b": "Washington D.C.",
-    "value": 9
-  },
-  {
-    "a": "Omaha",
-    "b": "Winnipeg",
-    "value": 6
-  },
-  {
-    "a": "Phoenix",
-    "b": "Atlanta",
-    "value": 12
-  },
-  {
-    "a": "Phoenix",
-    "b": "Boston",
-    "value": 20
-  },
-  {
-    "a": "Phoenix",
-    "b": "Chicago",
-    "value": 12
-  },
-  {
-    "a": "Phoenix",
-    "b": "Denver",
-    "value": 5
-  },
-  {
-    "a": "Phoenix",
-    "b": "Montreal",
-    "value": 20
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Atlanta",
-    "value": 4
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Boston",
-    "value": 4
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Calgary",
-    "value": 17
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Charleston",
-    "value": 4
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Chicago",
-    "value": 3
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Dallas",
-    "value": 9
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Denver",
-    "value": 11
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Houston",
     "value": 10
   },
   {
-    "a": "Pittsburgh",
-    "b": "Las Vegas",
-    "value": 18
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Little Rock",
-    "value": 7
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Los Angeles",
-    "value": 19
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Montreal",
-    "value": 5
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "New Orleans",
-    "value": 8
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "New York",
-    "value": 2
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Oklahoma City",
-    "value": 9
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Phoenix",
-    "value": 16
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Portland",
-    "value": 20
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Raleigh",
-    "value": 2
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Salt Lake City",
-    "value": 15
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "San Francisco",
-    "value": 20
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Santa Fe",
-    "value": 12
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Sault Ste. Marie",
-    "value": 4
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "St. Louis",
-    "value": 5
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Toronto",
-    "value": 2
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Washington D.C.",
-    "value": 2
-  },
-  {
-    "a": "Pittsburgh",
-    "b": "Winnipeg",
-    "value": 10
-  },
-  {
-    "a": "Portland",
-    "b": "Atlanta",
-    "value": 19
-  },
-  {
-    "a": "Portland",
-    "b": "Boston",
-    "value": 24
-  },
-  {
-    "a": "Portland",
-    "b": "Calgary",
-    "value": 5
-  },
-  {
-    "a": "Portland",
-    "b": "Charleston",
-    "value": 21
-  },
-  {
-    "a": "Portland",
-    "b": "Chicago",
-    "value": 17
-  },
-  {
-    "a": "Portland",
-    "b": "Dallas",
-    "value": 16
-  },
-  {
-    "a": "Portland",
-    "b": "Denver",
-    "value": 9
-  },
-  {
-    "a": "Portland",
-    "b": "Houston",
-    "value": 17
-  },
-  {
-    "a": "Portland",
-    "b": "Los Angeles",
-    "value": 8
-  },
-  {
-    "a": "Portland",
-    "b": "Montreal",
-    "value": 22
-  },
-  {
-    "a": "Portland",
-    "b": "New Orleans",
-    "value": 19
-  },
-  {
-    "a": "Portland",
-    "b": "New York",
-    "value": 22
-  },
-  {
-    "a": "Portland",
-    "b": "Oklahoma City",
-    "value": 14
-  },
-  {
-    "a": "Portland",
-    "b": "Phoenix",
-    "value": 11
-  },
-  {
-    "a": "Portland",
-    "b": "Raleigh",
-    "value": 21
-  },
-  {
-    "a": "Portland",
-    "b": "Salt Lake City",
-    "value": 6
-  },
-  {
-    "a": "Portland",
-    "b": "Santa Fe",
-    "value": 11
-  },
-  {
-    "a": "Portland",
-    "b": "Sault Ste. Marie",
-    "value": 17
-  },
-  {
-    "a": "Portland",
-    "b": "St. Louis",
-    "value": 16
-  },
-  {
-    "a": "Portland",
-    "b": "Toronto",
-    "value": 19
-  },
-  {
-    "a": "Portland",
-    "b": "Washington D.C.",
-    "value": 22
-  },
-  {
-    "a": "Portland",
-    "b": "Winnipeg",
-    "value": 11
-  },
-  {
-    "a": "Raleigh",
-    "b": "Atlanta",
-    "value": 2
-  },
-  {
-    "a": "Raleigh",
-    "b": "Boston",
-    "value": 6
-  },
-  {
-    "a": "Raleigh",
-    "b": "Chicago",
-    "value": 5
-  },
-  {
-    "a": "Raleigh",
-    "b": "Denver",
-    "value": 11
-  },
-  {
-    "a": "Raleigh",
-    "b": "Montreal",
-    "value": 7
-  },
-  {
-    "a": "Raleigh",
-    "b": "Phoenix",
-    "value": 15
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Atlanta",
-    "value": 12
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Boston",
-    "value": 19
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Chicago",
-    "value": 11
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Denver",
-    "value": 3
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Montreal",
-    "value": 18
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Phoenix",
-    "value": 8
-  },
-  {
-    "a": "Salt Lake City",
-    "b": "Raleigh",
-    "value": 15
-  },
-  {
-    "a": "San Francisco",
-    "b": "Atlanta",
-    "value": 18
-  },
-  {
-    "a": "San Francisco",
-    "b": "Boston",
-    "value": 24
-  },
-  {
-    "a": "San Francisco",
-    "b": "Calgary",
-    "value": 10
-  },
-  {
-    "a": "San Francisco",
-    "b": "Charleston",
-    "value": 20
-  },
-  {
-    "a": "San Francisco",
-    "b": "Chicago",
-    "value": 17
-  },
-  {
-    "a": "San Francisco",
-    "b": "Dallas",
-    "value": 14
-  },
-  {
-    "a": "San Francisco",
-    "b": "Denver",
-    "value": 8
-  },
-  {
-    "a": "San Francisco",
-    "b": "Houston",
-    "value": 15
-  },
-  {
-    "a": "San Francisco",
-    "b": "Los Angeles",
-    "value": 3
-  },
-  {
-    "a": "San Francisco",
-    "b": "Montreal",
-    "value": 23
-  },
-  {
-    "a": "San Francisco",
-    "b": "New Orleans",
-    "value": 17
-  },
-  {
-    "a": "San Francisco",
-    "b": "New York",
-    "value": 22
-  },
-  {
-    "a": "San Francisco",
-    "b": "Oklahoma City",
-    "value": 12
-  },
-  {
-    "a": "San Francisco",
-    "b": "Phoenix",
-    "value": 6
-  },
-  {
-    "a": "San Francisco",
-    "b": "Portland",
-    "value": 5
-  },
-  {
-    "a": "San Francisco",
-    "b": "Raleigh",
-    "value": 20
-  },
-  {
-    "a": "San Francisco",
-    "b": "Salt Lake City",
-    "value": 5
-  },
-  {
-    "a": "San Francisco",
-    "b": "Santa Fe",
-    "value": 9
-  },
-  {
-    "a": "San Francisco",
-    "b": "Sault Ste. Marie",
-    "value": 18
-  },
-  {
-    "a": "San Francisco",
-    "b": "St. Louis",
-    "value": 15
-  },
-  {
-    "a": "San Francisco",
-    "b": "Toronto",
-    "value": 20
-  },
-  {
-    "a": "San Francisco",
-    "b": "Washington D.C.",
-    "value": 22
-  },
-  {
-    "a": "San Francisco",
-    "b": "Winnipeg",
-    "value": 12
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Atlanta",
-    "value": 9
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Boston",
-    "value": 17
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Charleston",
-    "value": 11
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Chicago",
-    "value": 9
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Dallas",
-    "value": 5
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Denver",
-    "value": 2
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Los Angeles",
-    "value": 6
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Montreal",
-    "value": 17
-  },
-  {
-    "a": "Santa Fe",
-    "b": "New York",
-    "value": 15
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Phoenix",
-    "value": 3
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Raleigh",
-    "value": 11
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Salt Lake City",
-    "value": 5
-  },
-  {
-    "a": "Santa Fe",
-    "b": "Washington D.C.",
-    "value": 14
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Atlanta",
-    "value": 8
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Boston",
-    "value": 7
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Charleston",
-    "value": 8
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Chicago",
-    "value": 6
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Dallas",
-    "value": 10
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Denver",
-    "value": 9
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Los Angeles",
-    "value": 18
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Montreal",
-    "value": 5
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "New York",
-    "value": 6
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Phoenix",
-    "value": 15
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Raleigh",
-    "value": 6
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Salt Lake City",
-    "value": 12
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Santa Fe",
-    "value": 11
-  },
-  {
-    "a": "Sault Ste. Marie",
-    "b": "Washington D.C.",
-    "value": 6
-  },
-  {
-    "a": "Seattle",
-    "b": "Atlanta",
-    "value": 18
-  },
-  {
-    "a": "Seattle",
-    "b": "Boston",
-    "value": 23
-  },
-  {
-    "a": "Seattle",
-    "b": "Calgary",
-    "value": 4
-  },
-  {
-    "a": "Seattle",
-    "b": "Charleston",
-    "value": 20
-  },
-  {
-    "a": "Seattle",
-    "b": "Chicago",
-    "value": 16
-  },
-  {
-    "a": "Seattle",
-    "b": "Dallas",
-    "value": 17
-  },
-  {
-    "a": "Seattle",
-    "b": "Denver",
-    "value": 10
-  },
-  {
-    "a": "Seattle",
-    "b": "El Paso",
-    "value": 15
-  },
-  {
-    "a": "Seattle",
-    "b": "Helena",
-    "value": 6
-  },
-  {
-    "a": "Seattle",
-    "b": "Houston",
-    "value": 18
-  },
-  {
-    "a": "Seattle",
-    "b": "Kansas City",
-    "value": 12
-  },
-  {
-    "a": "Seattle",
-    "b": "Las Vegas",
-    "value": 10
-  },
-  {
-    "a": "Seattle",
-    "b": "Little Rock",
-    "value": 17
-  },
-  {
-    "a": "Seattle",
-    "b": "Los Angeles",
-    "value": 9
-  },
-  {
-    "a": "Seattle",
-    "b": "Montreal",
-    "value": 21
-  },
-  {
-    "a": "Seattle",
-    "b": "New Orleans",
-    "value": 20
-  },
-  {
-    "a": "Seattle",
-    "b": "New York",
-    "value": 21
-  },
-  {
-    "a": "Seattle",
-    "b": "Oklahoma City",
-    "value": 15
-  },
-  {
-    "a": "Seattle",
-    "b": "Phoenix",
-    "value": 12
-  },
-  {
-    "a": "Seattle",
-    "b": "Pittsburgh",
-    "value": 19
-  },
-  {
-    "a": "Seattle",
-    "b": "Portland",
-    "value": 1
-  },
-  {
-    "a": "Seattle",
-    "b": "Raleigh",
-    "value": 20
-  },
-  {
-    "a": "Seattle",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Seattle",
-    "b": "San Francisco",
-    "value": 6
-  },
-  {
-    "a": "Seattle",
-    "b": "Santa Fe",
-    "value": 12
-  },
-  {
-    "a": "Seattle",
-    "b": "Sault Ste. Marie",
-    "value": 16
-  },
-  {
-    "a": "Seattle",
-    "b": "St. Louis",
-    "value": 15
-  },
-  {
-    "a": "Seattle",
-    "b": "Toronto",
-    "value": 18
-  },
-  {
-    "a": "Seattle",
-    "b": "Washington D.C.",
-    "value": 21
-  },
-  {
-    "a": "Seattle",
-    "b": "Winnipeg",
-    "value": 10
-  },
-  {
-    "a": "St. Louis",
-    "b": "Atlanta",
-    "value": 3
-  },
-  {
-    "a": "St. Louis",
-    "b": "Boston",
-    "value": 9
-  },
-  {
-    "a": "St. Louis",
-    "b": "Charleston",
-    "value": 5
-  },
-  {
-    "a": "St. Louis",
-    "b": "Chicago",
-    "value": 2
-  },
-  {
-    "a": "St. Louis",
-    "b": "Dallas",
-    "value": 4
-  },
-  {
-    "a": "St. Louis",
-    "b": "Denver",
-    "value": 6
-  },
-  {
-    "a": "St. Louis",
-    "b": "Los Angeles",
-    "value": 14
-  },
-  {
-    "a": "St. Louis",
-    "b": "Montreal",
-    "value": 9
-  },
-  {
-    "a": "St. Louis",
-    "b": "New York",
-    "value": 7
-  },
-  {
-    "a": "St. Louis",
-    "b": "Phoenix",
-    "value": 10
-  },
-  {
-    "a": "St. Louis",
-    "b": "Raleigh",
-    "value": 5
-  },
-  {
-    "a": "St. Louis",
-    "b": "Salt Lake City",
-    "value": 9
-  },
-  {
-    "a": "St. Louis",
-    "b": "Santa Fe",
-    "value": 7
-  },
-  {
-    "a": "St. Louis",
-    "b": "Sault Ste. Marie",
-    "value": 8
-  },
-  {
-    "a": "St. Louis",
-    "b": "Washington D.C.",
-    "value": 7
-  },
-  {
-    "a": "Toronto",
-    "b": "Atlanta",
-    "value": 6
-  },
-  {
-    "a": "Toronto",
-    "b": "Boston",
-    "value": 5
-  },
-  {
-    "a": "Toronto",
-    "b": "Charleston",
-    "value": 6
-  },
-  {
-    "a": "Toronto",
-    "b": "Chicago",
-    "value": 4
-  },
-  {
-    "a": "Toronto",
-    "b": "Dallas",
-    "value": 10
-  },
-  {
-    "a": "Toronto",
-    "b": "Denver",
-    "value": 11
-  },
-  {
-    "a": "Toronto",
-    "b": "Los Angeles",
-    "value": 20
-  },
-  {
-    "a": "Toronto",
-    "b": "Montreal",
-    "value": 3
-  },
-  {
-    "a": "Toronto",
-    "b": "New York",
-    "value": 4
-  },
-  {
-    "a": "Toronto",
-    "b": "Phoenix",
-    "value": 17
-  },
-  {
-    "a": "Toronto",
-    "b": "Raleigh",
-    "value": 4
-  },
-  {
-    "a": "Toronto",
-    "b": "Salt Lake City",
-    "value": 15
-  },
-  {
-    "a": "Toronto",
-    "b": "Santa Fe",
-    "value": 14
-  },
-  {
-    "a": "Toronto",
-    "b": "Sault Ste. Marie",
-    "value": 2
-  },
-  {
-    "a": "Toronto",
-    "b": "St. Louis",
-    "value": 6
-  },
-  {
-    "a": "Toronto",
-    "b": "Washington D.C.",
-    "value": 4
-  },
-  {
-    "a": "Vancouver",
-    "b": "Atlanta",
-    "value": 19
-  },
-  {
-    "a": "Vancouver",
-    "b": "Boston",
-    "value": 23
-  },
-  {
-    "a": "Vancouver",
-    "b": "Calgary",
-    "value": 3
-  },
-  {
-    "a": "Vancouver",
-    "b": "Charleston",
-    "value": 21
-  },
-  {
-    "a": "Vancouver",
-    "b": "Chicago",
-    "value": 17
-  },
-  {
-    "a": "Vancouver",
-    "b": "Dallas",
-    "value": 18
-  },
-  {
-    "a": "Vancouver",
-    "b": "Denver",
-    "value": 11
-  },
-  {
-    "a": "Vancouver",
-    "b": "Duluth",
-    "value": 14
-  },
-  {
-    "a": "Vancouver",
-    "b": "El Paso",
-    "value": 16
-  },
-  {
-    "a": "Vancouver",
-    "b": "Helena",
-    "value": 7
-  },
-  {
-    "a": "Vancouver",
-    "b": "Houston",
-    "value": 19
-  },
-  {
-    "a": "Vancouver",
-    "b": "Kansas City",
-    "value": 14
-  },
-  {
-    "a": "Vancouver",
-    "b": "Las Vegas",
-    "value": 11
-  },
-  {
-    "a": "Vancouver",
-    "b": "Little Rock",
-    "value": 18
-  },
-  {
-    "a": "Vancouver",
-    "b": "Los Angeles",
-    "value": 10
-  },
-  {
-    "a": "Vancouver",
-    "b": "Montreal",
-    "value": 21
-  },
-  {
-    "a": "Vancouver",
-    "b": "Nashville",
-    "value": 18
-  },
-  {
-    "a": "Vancouver",
-    "b": "New Orleans",
-    "value": 21
-  },
-  {
-    "a": "Vancouver",
-    "b": "New York",
-    "value": 22
-  },
-  {
-    "a": "Vancouver",
-    "b": "Oklahoma City",
-    "value": 16
-  },
-  {
-    "a": "Vancouver",
+    "a": "New Orleans",
     "b": "Omaha",
+    "value": 8
+  },
+  {
+    "a": "New Orleans",
+    "b": "Phoenix",
+    "value": 10
+  },
+  {
+    "a": "New Orleans",
+    "b": "Portland",
+    "value": 19
+  },
+  {
+    "a": "New Orleans",
+    "b": "Raleigh",
+    "value": 6
+  },
+  {
+    "a": "New Orleans",
+    "b": "San Francisco",
+    "value": 17
+  },
+  {
+    "a": "New Orleans",
+    "b": "Santa Fe",
+    "value": 8
+  },
+  {
+    "a": "New Orleans",
+    "b": "Sault Ste. Marie",
     "value": 12
   },
   {
-    "a": "Vancouver",
-    "b": "Phoenix",
+    "a": "New Orleans",
+    "b": "Seattle",
+    "value": 20
+  },
+  {
+    "a": "New Orleans",
+    "b": "Vancouver",
+    "value": 21
+  },
+  {
+    "a": "New Orleans",
+    "b": "Winnipeg",
+    "value": 15
+  },
+  {
+    "a": "New York",
+    "b": "Charleston",
+    "value": 6
+  },
+  {
+    "a": "New York",
+    "b": "Dallas",
+    "value": 11
+  },
+  {
+    "a": "New York",
+    "b": "Las Vegas",
+    "value": 20
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Atlanta",
+    "value": 6
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Boston",
     "value": 14
   },
   {
-    "a": "Vancouver",
+    "a": "Oklahoma City",
+    "b": "Calgary",
+    "value": 12
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Charleston",
+    "value": 8
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Dallas",
+    "value": 2
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Denver",
+    "value": 4
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Duluth",
+    "value": 5
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "El Paso",
+    "value": 5
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Helena",
+    "value": 8
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Houston",
+    "value": 3
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Kansas City",
+    "value": 2
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Las Vegas",
+    "value": 10
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Little Rock",
+    "value": 2
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Los Angeles",
+    "value": 9
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Miami",
+    "value": 11
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Montreal",
+    "value": 14
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Nashville",
+    "value": 5
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "New Orleans",
+    "value": 5
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "New York",
+    "value": 11
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Omaha",
+    "value": 3
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Phoenix",
+    "value": 6
+  },
+  {
+    "a": "Oklahoma City",
     "b": "Pittsburgh",
+    "value": 9
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Portland",
+    "value": 14
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Raleigh",
+    "value": 8
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Salt Lake City",
+    "value": 7
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "San Francisco",
+    "value": 12
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Santa Fe",
+    "value": 3
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Sault Ste. Marie",
+    "value": 8
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Seattle",
+    "value": 15
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "St. Louis",
+    "value": 4
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Toronto",
+    "value": 10
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Vancouver",
+    "value": 16
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Washington D.C.",
+    "value": 10
+  },
+  {
+    "a": "Oklahoma City",
+    "b": "Winnipeg",
+    "value": 9
+  },
+  {
+    "a": "Omaha",
+    "b": "Atlanta",
+    "value": 6
+  },
+  {
+    "a": "Omaha",
+    "b": "Calgary",
+    "value": 9
+  },
+  {
+    "a": "Omaha",
+    "b": "Charleston",
+    "value": 8
+  },
+  {
+    "a": "Omaha",
+    "b": "Dallas",
+    "value": 5
+  },
+  {
+    "a": "Omaha",
+    "b": "Denver",
+    "value": 4
+  },
+  {
+    "a": "Omaha",
+    "b": "Duluth",
+    "value": 2
+  },
+  {
+    "a": "Omaha",
+    "b": "El Paso",
+    "value": 8
+  },
+  {
+    "a": "Omaha",
+    "b": "Helena",
+    "value": 5
+  },
+  {
+    "a": "Omaha",
+    "b": "Houston",
+    "value": 6
+  },
+  {
+    "a": "Omaha",
+    "b": "Kansas City",
+    "value": 1
+  },
+  {
+    "a": "Omaha",
+    "b": "Las Vegas",
+    "value": 10
+  },
+  {
+    "a": "Omaha",
+    "b": "Little Rock",
+    "value": 5
+  },
+  {
+    "a": "Omaha",
+    "b": "Los Angeles",
+    "value": 12
+  },
+  {
+    "a": "Omaha",
+    "b": "Montreal",
+    "value": 10
+  },
+  {
+    "a": "Omaha",
+    "b": "Nashville",
+    "value": 5
+  },
+  {
+    "a": "Omaha",
+    "b": "New York",
+    "value": 9
+  },
+  {
+    "a": "Omaha",
+    "b": "Phoenix",
+    "value": 9
+  },
+  {
+    "a": "Omaha",
+    "b": "Portland",
+    "value": 12
+  },
+  {
+    "a": "Omaha",
+    "b": "Raleigh",
+    "value": 8
+  },
+  {
+    "a": "Omaha",
+    "b": "San Francisco",
+    "value": 12
+  },
+  {
+    "a": "Omaha",
+    "b": "Santa Fe",
+    "value": 6
+  },
+  {
+    "a": "Omaha",
+    "b": "Sault Ste. Marie",
+    "value": 5
+  },
+  {
+    "a": "Omaha",
+    "b": "Seattle",
+    "value": 11
+  },
+  {
+    "a": "Omaha",
+    "b": "Vancouver",
+    "value": 12
+  },
+  {
+    "a": "Omaha",
+    "b": "Winnipeg",
+    "value": 6
+  },
+  {
+    "a": "Phoenix",
+    "b": "Atlanta",
+    "value": 12
+  },
+  {
+    "a": "Phoenix",
+    "b": "Calgary",
+    "value": 14
+  },
+  {
+    "a": "Phoenix",
+    "b": "Charleston",
+    "value": 15
+  },
+  {
+    "a": "Phoenix",
+    "b": "Dallas",
+    "value": 7
+  },
+  {
+    "a": "Phoenix",
+    "b": "Denver",
+    "value": 5
+  },
+  {
+    "a": "Phoenix",
+    "b": "Duluth",
+    "value": 11
+  },
+  {
+    "a": "Phoenix",
+    "b": "El Paso",
+    "value": 3
+  },
+  {
+    "a": "Phoenix",
+    "b": "Helena",
+    "value": 9
+  },
+  {
+    "a": "Phoenix",
+    "b": "Houston",
+    "value": 8
+  },
+  {
+    "a": "Phoenix",
+    "b": "Kansas City",
+    "value": 8
+  },
+  {
+    "a": "Phoenix",
+    "b": "Las Vegas",
+    "value": 5
+  },
+  {
+    "a": "Phoenix",
+    "b": "Little Rock",
+    "value": 8
+  },
+  {
+    "a": "Phoenix",
+    "b": "Los Angeles",
+    "value": 3
+  },
+  {
+    "a": "Phoenix",
+    "b": "Montreal",
     "value": 20
+  },
+  {
+    "a": "Phoenix",
+    "b": "Nashville",
+    "value": 11
+  },
+  {
+    "a": "Phoenix",
+    "b": "New York",
+    "value": 18
+  },
+  {
+    "a": "Phoenix",
+    "b": "Portland",
+    "value": 11
+  },
+  {
+    "a": "Phoenix",
+    "b": "Raleigh",
+    "value": 15
+  },
+  {
+    "a": "Phoenix",
+    "b": "San Francisco",
+    "value": 6
+  },
+  {
+    "a": "Phoenix",
+    "b": "Sault Ste. Marie",
+    "value": 15
+  },
+  {
+    "a": "Phoenix",
+    "b": "Seattle",
+    "value": 12
+  },
+  {
+    "a": "Phoenix",
+    "b": "Vancouver",
+    "value": 14
+  },
+  {
+    "a": "Phoenix",
+    "b": "Winnipeg",
+    "value": 14
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Atlanta",
+    "value": 4
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Calgary",
+    "value": 17
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Charleston",
+    "value": 4
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Dallas",
+    "value": 9
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Denver",
+    "value": 11
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Duluth",
+    "value": 6
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "El Paso",
+    "value": 14
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Helena",
+    "value": 12
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Houston",
+    "value": 10
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Kansas City",
+    "value": 7
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Las Vegas",
+    "value": 18
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Little Rock",
+    "value": 7
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Los Angeles",
+    "value": 19
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Montreal",
+    "value": 5
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Nashville",
+    "value": 4
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "New Orleans",
+    "value": 8
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "New York",
+    "value": 2
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Omaha",
+    "value": 7
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Phoenix",
+    "value": 16
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Portland",
+    "value": 20
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Raleigh",
+    "value": 2
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "San Francisco",
+    "value": 20
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Santa Fe",
+    "value": 12
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Sault Ste. Marie",
+    "value": 4
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Seattle",
+    "value": 19
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Vancouver",
+    "value": 20
+  },
+  {
+    "a": "Pittsburgh",
+    "b": "Winnipeg",
+    "value": 10
+  },
+  {
+    "a": "Portland",
+    "b": "Atlanta",
+    "value": 19
+  },
+  {
+    "a": "Portland",
+    "b": "Charleston",
+    "value": 21
+  },
+  {
+    "a": "Portland",
+    "b": "Dallas",
+    "value": 16
+  },
+  {
+    "a": "Portland",
+    "b": "El Paso",
+    "value": 14
+  },
+  {
+    "a": "Portland",
+    "b": "Helena",
+    "value": 7
+  },
+  {
+    "a": "Portland",
+    "b": "Houston",
+    "value": 17
+  },
+  {
+    "a": "Portland",
+    "b": "Las Vegas",
+    "value": 9
+  },
+  {
+    "a": "Portland",
+    "b": "New York",
+    "value": 22
+  },
+  {
+    "a": "Portland",
+    "b": "San Francisco",
+    "value": 5
+  },
+  {
+    "a": "Portland",
+    "b": "Winnipeg",
+    "value": 11
+  },
+  {
+    "a": "Raleigh",
+    "b": "Atlanta",
+    "value": 2
+  },
+  {
+    "a": "Raleigh",
+    "b": "Charleston",
+    "value": 2
+  },
+  {
+    "a": "Raleigh",
+    "b": "Dallas",
+    "value": 8
+  },
+  {
+    "a": "Raleigh",
+    "b": "El Paso",
+    "value": 12
+  },
+  {
+    "a": "Raleigh",
+    "b": "Helena",
+    "value": 14
+  },
+  {
+    "a": "Raleigh",
+    "b": "Houston",
+    "value": 8
+  },
+  {
+    "a": "Raleigh",
+    "b": "Las Vegas",
+    "value": 18
+  },
+  {
+    "a": "Raleigh",
+    "b": "New York",
+    "value": 4
+  },
+  {
+    "a": "Raleigh",
+    "b": "Portland",
+    "value": 21
+  },
+  {
+    "a": "Raleigh",
+    "b": "San Francisco",
+    "value": 20
+  },
+  {
+    "a": "Raleigh",
+    "b": "Vancouver",
+    "value": 21
+  },
+  {
+    "a": "Raleigh",
+    "b": "Winnipeg",
+    "value": 12
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Atlanta",
+    "value": 12
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Boston",
+    "value": 19
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Calgary",
+    "value": 7
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Charleston",
+    "value": 15
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Dallas",
+    "value": 9
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Denver",
+    "value": 3
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Duluth",
+    "value": 9
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "El Paso",
+    "value": 7
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Helena",
+    "value": 3
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Houston",
+    "value": 10
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Kansas City",
+    "value": 7
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Las Vegas",
+    "value": 3
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Little Rock",
+    "value": 9
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Los Angeles",
+    "value": 5
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Miami",
+    "value": 18
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Montreal",
+    "value": 18
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Nashville",
+    "value": 11
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "New Orleans",
+    "value": 12
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "New York",
+    "value": 17
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Omaha",
+    "value": 7
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Phoenix",
+    "value": 8
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Pittsburgh",
+    "value": 15
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Portland",
+    "value": 6
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Raleigh",
+    "value": 15
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "San Francisco",
+    "value": 5
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Santa Fe",
+    "value": 5
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Sault Ste. Marie",
+    "value": 12
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Seattle",
+    "value": 7
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "St. Louis",
+    "value": 9
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Toronto",
+    "value": 15
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Vancouver",
+    "value": 8
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Washington D.C.",
+    "value": 17
+  },
+  {
+    "a": "Salt Lake City",
+    "b": "Winnipeg",
+    "value": 7
+  },
+  {
+    "a": "San Francisco",
+    "b": "Charleston",
+    "value": 20
+  },
+  {
+    "a": "San Francisco",
+    "b": "Dallas",
+    "value": 14
+  },
+  {
+    "a": "San Francisco",
+    "b": "Houston",
+    "value": 15
+  },
+  {
+    "a": "San Francisco",
+    "b": "Las Vegas",
+    "value": 5
+  },
+  {
+    "a": "San Francisco",
+    "b": "New York",
+    "value": 22
+  },
+  {
+    "a": "San Francisco",
+    "b": "Winnipeg",
+    "value": 12
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Atlanta",
+    "value": 9
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Calgary",
+    "value": 10
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Charleston",
+    "value": 11
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Dallas",
+    "value": 5
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Denver",
+    "value": 2
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Duluth",
+    "value": 8
+  },
+  {
+    "a": "Santa Fe",
+    "b": "El Paso",
+    "value": 2
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Helena",
+    "value": 6
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Houston",
+    "value": 6
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Kansas City",
+    "value": 5
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Las Vegas",
+    "value": 8
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Little Rock",
+    "value": 5
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Los Angeles",
+    "value": 6
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Montreal",
+    "value": 17
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Nashville",
+    "value": 8
+  },
+  {
+    "a": "Santa Fe",
+    "b": "New York",
+    "value": 15
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Phoenix",
+    "value": 3
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Portland",
+    "value": 11
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Raleigh",
+    "value": 11
+  },
+  {
+    "a": "Santa Fe",
+    "b": "San Francisco",
+    "value": 9
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Sault Ste. Marie",
+    "value": 11
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Seattle",
+    "value": 12
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Vancouver",
+    "value": 14
+  },
+  {
+    "a": "Santa Fe",
+    "b": "Winnipeg",
+    "value": 10
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Atlanta",
+    "value": 8
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Calgary",
+    "value": 12
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Charleston",
+    "value": 8
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Dallas",
+    "value": 10
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Denver",
+    "value": 9
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Duluth",
+    "value": 3
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "El Paso",
+    "value": 14
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Helena",
+    "value": 9
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Houston",
+    "value": 11
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Kansas City",
+    "value": 6
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Las Vegas",
+    "value": 16
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Montreal",
+    "value": 5
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Nashville",
+    "value": 8
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "New York",
+    "value": 6
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Portland",
+    "value": 17
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Raleigh",
+    "value": 6
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "San Francisco",
+    "value": 18
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Vancouver",
+    "value": 16
+  },
+  {
+    "a": "Sault Ste. Marie",
+    "b": "Winnipeg",
+    "value": 6
+  },
+  {
+    "a": "Seattle",
+    "b": "Atlanta",
+    "value": 18
+  },
+  {
+    "a": "Seattle",
+    "b": "Calgary",
+    "value": 4
+  },
+  {
+    "a": "Seattle",
+    "b": "Charleston",
+    "value": 20
+  },
+  {
+    "a": "Seattle",
+    "b": "Dallas",
+    "value": 17
+  },
+  {
+    "a": "Seattle",
+    "b": "Denver",
+    "value": 10
+  },
+  {
+    "a": "Seattle",
+    "b": "Duluth",
+    "value": 12
+  },
+  {
+    "a": "Seattle",
+    "b": "El Paso",
+    "value": 15
+  },
+  {
+    "a": "Seattle",
+    "b": "Helena",
+    "value": 6
+  },
+  {
+    "a": "Seattle",
+    "b": "Houston",
+    "value": 18
+  },
+  {
+    "a": "Seattle",
+    "b": "Kansas City",
+    "value": 12
+  },
+  {
+    "a": "Seattle",
+    "b": "Las Vegas",
+    "value": 10
+  },
+  {
+    "a": "Seattle",
+    "b": "Montreal",
+    "value": 21
+  },
+  {
+    "a": "Seattle",
+    "b": "Nashville",
+    "value": 17
+  },
+  {
+    "a": "Seattle",
+    "b": "New York",
+    "value": 21
+  },
+  {
+    "a": "Seattle",
+    "b": "Portland",
+    "value": 1
+  },
+  {
+    "a": "Seattle",
+    "b": "Raleigh",
+    "value": 20
+  },
+  {
+    "a": "Seattle",
+    "b": "San Francisco",
+    "value": 6
+  },
+  {
+    "a": "Seattle",
+    "b": "Sault Ste. Marie",
+    "value": 16
+  },
+  {
+    "a": "Seattle",
+    "b": "Vancouver",
+    "value": 1
+  },
+  {
+    "a": "Seattle",
+    "b": "Winnipeg",
+    "value": 10
+  },
+  {
+    "a": "St. Louis",
+    "b": "Atlanta",
+    "value": 3
+  },
+  {
+    "a": "St. Louis",
+    "b": "Boston",
+    "value": 9
+  },
+  {
+    "a": "St. Louis",
+    "b": "Calgary",
+    "value": 12
+  },
+  {
+    "a": "St. Louis",
+    "b": "Charleston",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "Dallas",
+    "value": 4
+  },
+  {
+    "a": "St. Louis",
+    "b": "Denver",
+    "value": 6
+  },
+  {
+    "a": "St. Louis",
+    "b": "Duluth",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "El Paso",
+    "value": 8
+  },
+  {
+    "a": "St. Louis",
+    "b": "Helena",
+    "value": 8
+  },
+  {
+    "a": "St. Louis",
+    "b": "Houston",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "Kansas City",
+    "value": 2
+  },
+  {
+    "a": "St. Louis",
+    "b": "Las Vegas",
+    "value": 12
+  },
+  {
+    "a": "St. Louis",
+    "b": "Little Rock",
+    "value": 2
+  },
+  {
+    "a": "St. Louis",
+    "b": "Los Angeles",
+    "value": 14
+  },
+  {
+    "a": "St. Louis",
+    "b": "Miami",
+    "value": 8
+  },
+  {
+    "a": "St. Louis",
+    "b": "Montreal",
+    "value": 9
+  },
+  {
+    "a": "St. Louis",
+    "b": "Nashville",
+    "value": 2
+  },
+  {
+    "a": "St. Louis",
+    "b": "New Orleans",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "New York",
+    "value": 7
+  },
+  {
+    "a": "St. Louis",
+    "b": "Omaha",
+    "value": 3
+  },
+  {
+    "a": "St. Louis",
+    "b": "Phoenix",
+    "value": 10
+  },
+  {
+    "a": "St. Louis",
+    "b": "Pittsburgh",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "Portland",
+    "value": 16
+  },
+  {
+    "a": "St. Louis",
+    "b": "Raleigh",
+    "value": 5
+  },
+  {
+    "a": "St. Louis",
+    "b": "San Francisco",
+    "value": 15
+  },
+  {
+    "a": "St. Louis",
+    "b": "Santa Fe",
+    "value": 7
+  },
+  {
+    "a": "St. Louis",
+    "b": "Sault Ste. Marie",
+    "value": 8
+  },
+  {
+    "a": "St. Louis",
+    "b": "Seattle",
+    "value": 15
+  },
+  {
+    "a": "St. Louis",
+    "b": "Toronto",
+    "value": 6
+  },
+  {
+    "a": "St. Louis",
+    "b": "Vancouver",
+    "value": 16
+  },
+  {
+    "a": "St. Louis",
+    "b": "Washington D.C.",
+    "value": 7
+  },
+  {
+    "a": "St. Louis",
+    "b": "Winnipeg",
+    "value": 9
+  },
+  {
+    "a": "Toronto",
+    "b": "Atlanta",
+    "value": 6
+  },
+  {
+    "a": "Toronto",
+    "b": "Boston",
+    "value": 5
+  },
+  {
+    "a": "Toronto",
+    "b": "Calgary",
+    "value": 15
+  },
+  {
+    "a": "Toronto",
+    "b": "Charleston",
+    "value": 6
+  },
+  {
+    "a": "Toronto",
+    "b": "Dallas",
+    "value": 10
+  },
+  {
+    "a": "Toronto",
+    "b": "Denver",
+    "value": 11
+  },
+  {
+    "a": "Toronto",
+    "b": "Duluth",
+    "value": 5
+  },
+  {
+    "a": "Toronto",
+    "b": "El Paso",
+    "value": 15
+  },
+  {
+    "a": "Toronto",
+    "b": "Helena",
+    "value": 11
+  },
+  {
+    "a": "Toronto",
+    "b": "Houston",
+    "value": 11
+  },
+  {
+    "a": "Toronto",
+    "b": "Kansas City",
+    "value": 8
+  },
+  {
+    "a": "Toronto",
+    "b": "Las Vegas",
+    "value": 18
+  },
+  {
+    "a": "Toronto",
+    "b": "Little Rock",
+    "value": 8
+  },
+  {
+    "a": "Toronto",
+    "b": "Los Angeles",
+    "value": 20
+  },
+  {
+    "a": "Toronto",
+    "b": "Miami",
+    "value": 10
+  },
+  {
+    "a": "Toronto",
+    "b": "Montreal",
+    "value": 3
+  },
+  {
+    "a": "Toronto",
+    "b": "Nashville",
+    "value": 6
+  },
+  {
+    "a": "Toronto",
+    "b": "New Orleans",
+    "value": 10
+  },
+  {
+    "a": "Toronto",
+    "b": "New York",
+    "value": 4
+  },
+  {
+    "a": "Toronto",
+    "b": "Omaha",
+    "value": 7
+  },
+  {
+    "a": "Toronto",
+    "b": "Phoenix",
+    "value": 17
+  },
+  {
+    "a": "Toronto",
+    "b": "Pittsburgh",
+    "value": 2
+  },
+  {
+    "a": "Toronto",
+    "b": "Portland",
+    "value": 19
+  },
+  {
+    "a": "Toronto",
+    "b": "Raleigh",
+    "value": 4
+  },
+  {
+    "a": "Toronto",
+    "b": "San Francisco",
+    "value": 20
+  },
+  {
+    "a": "Toronto",
+    "b": "Santa Fe",
+    "value": 14
+  },
+  {
+    "a": "Toronto",
+    "b": "Sault Ste. Marie",
+    "value": 2
+  },
+  {
+    "a": "Toronto",
+    "b": "Seattle",
+    "value": 18
+  },
+  {
+    "a": "Toronto",
+    "b": "Vancouver",
+    "value": 18
+  },
+  {
+    "a": "Toronto",
+    "b": "Washington D.C.",
+    "value": 4
+  },
+  {
+    "a": "Toronto",
+    "b": "Winnipeg",
+    "value": 8
+  },
+  {
+    "a": "Vancouver",
+    "b": "Atlanta",
+    "value": 19
+  },
+  {
+    "a": "Vancouver",
+    "b": "Charleston",
+    "value": 21
+  },
+  {
+    "a": "Vancouver",
+    "b": "Dallas",
+    "value": 18
+  },
+  {
+    "a": "Vancouver",
+    "b": "El Paso",
+    "value": 16
+  },
+  {
+    "a": "Vancouver",
+    "b": "Helena",
+    "value": 7
+  },
+  {
+    "a": "Vancouver",
+    "b": "Houston",
+    "value": 19
+  },
+  {
+    "a": "Vancouver",
+    "b": "Las Vegas",
+    "value": 11
+  },
+  {
+    "a": "Vancouver",
+    "b": "New York",
+    "value": 22
   },
   {
     "a": "Vancouver",
@@ -2961,48 +2971,8 @@
   },
   {
     "a": "Vancouver",
-    "b": "Raleigh",
-    "value": 21
-  },
-  {
-    "a": "Vancouver",
-    "b": "Salt Lake City",
-    "value": 8
-  },
-  {
-    "a": "Vancouver",
     "b": "San Francisco",
     "value": 7
-  },
-  {
-    "a": "Vancouver",
-    "b": "Santa Fe",
-    "value": 14
-  },
-  {
-    "a": "Vancouver",
-    "b": "Sault Ste. Marie",
-    "value": 16
-  },
-  {
-    "a": "Vancouver",
-    "b": "Seattle",
-    "value": 1
-  },
-  {
-    "a": "Vancouver",
-    "b": "St. Louis",
-    "value": 16
-  },
-  {
-    "a": "Vancouver",
-    "b": "Toronto",
-    "value": 18
-  },
-  {
-    "a": "Vancouver",
-    "b": "Washington D.C.",
-    "value": 22
   },
   {
     "a": "Vancouver",
@@ -3021,8 +2991,18 @@
   },
   {
     "a": "Washington D.C.",
-    "b": "Chicago",
-    "value": 5
+    "b": "Calgary",
+    "value": 19
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Charleston",
+    "value": 4
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Dallas",
+    "value": 10
   },
   {
     "a": "Washington D.C.",
@@ -3031,13 +3011,88 @@
   },
   {
     "a": "Washington D.C.",
+    "b": "Duluth",
+    "value": 8
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "El Paso",
+    "value": 15
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Helena",
+    "value": 15
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Houston",
+    "value": 10
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Kansas City",
+    "value": 9
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Las Vegas",
+    "value": 20
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Little Rock",
+    "value": 8
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Los Angeles",
+    "value": 20
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Miami",
+    "value": 8
+  },
+  {
+    "a": "Washington D.C.",
     "b": "Montreal",
     "value": 5
   },
   {
     "a": "Washington D.C.",
+    "b": "Nashville",
+    "value": 5
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "New Orleans",
+    "value": 8
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "New York",
+    "value": 2
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Omaha",
+    "value": 9
+  },
+  {
+    "a": "Washington D.C.",
     "b": "Phoenix",
     "value": 17
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Pittsburgh",
+    "value": 2
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Portland",
+    "value": 22
   },
   {
     "a": "Washington D.C.",
@@ -3046,23 +3101,33 @@
   },
   {
     "a": "Washington D.C.",
-    "b": "Salt Lake City",
-    "value": 17
+    "b": "San Francisco",
+    "value": 22
   },
   {
-    "a": "Winnipeg",
-    "b": "Atlanta",
-    "value": 12
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Boston",
+    "a": "Washington D.C.",
+    "b": "Santa Fe",
     "value": 14
   },
   {
-    "a": "Winnipeg",
-    "b": "Calgary",
+    "a": "Washington D.C.",
+    "b": "Sault Ste. Marie",
     "value": 6
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Seattle",
+    "value": 21
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Vancouver",
+    "value": 22
+  },
+  {
+    "a": "Washington D.C.",
+    "b": "Winnipeg",
+    "value": 12
   },
   {
     "a": "Winnipeg",
@@ -3071,82 +3136,17 @@
   },
   {
     "a": "Winnipeg",
-    "b": "Chicago",
-    "value": 7
-  },
-  {
-    "a": "Winnipeg",
     "b": "Dallas",
     "value": 11
   },
   {
     "a": "Winnipeg",
-    "b": "Denver",
-    "value": 8
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Los Angeles",
-    "value": 12
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Montreal",
-    "value": 11
-  },
-  {
-    "a": "Winnipeg",
-    "b": "New Orleans",
-    "value": 15
-  },
-  {
-    "a": "Winnipeg",
-    "b": "New York",
-    "value": 12
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Oklahoma City",
-    "value": 9
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Phoenix",
-    "value": 14
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Raleigh",
-    "value": 12
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Salt Lake City",
-    "value": 7
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Santa Fe",
+    "b": "Las Vegas",
     "value": 10
   },
   {
     "a": "Winnipeg",
-    "b": "Sault Ste. Marie",
-    "value": 6
-  },
-  {
-    "a": "Winnipeg",
-    "b": "St. Louis",
-    "value": 9
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Toronto",
-    "value": 8
-  },
-  {
-    "a": "Winnipeg",
-    "b": "Washington D.C.",
+    "b": "New York",
     "value": 12
   }
 ]
